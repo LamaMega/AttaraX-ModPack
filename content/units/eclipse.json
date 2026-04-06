@@ -1,0 +1,15 @@
+{
+    "name":"eclipse",
+    "abilities": [
+        {
+          "type": "mindustry.entities.abilities.StatusFieldAbility",
+          "effect": "neutron-overcharge",
+          "parentizeEffects": true,
+          "effectY": 23,
+          "activeEffect": "none",
+          "range": 300,
+          "reload": 5,
+          "duration": 5
+        }
+    ]
+}

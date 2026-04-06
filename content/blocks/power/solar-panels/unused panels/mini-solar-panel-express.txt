@@ -1,0 +1,15 @@
+{
+	"type": "SolarGenerator",
+	"name": "mini-solar-panel-express",
+	"description": "Power from the sun, but a little more.",
+	"size": 1,
+	"health": 100,
+	"buildCostMultiplier": .5,
+	"powerProduction": .2f,
+	"requirements": [
+		{ "item": "silicon", "amount": 15 },
+		{ "item": "thorium", "amount": 10 },
+	],
+	"category": "power",
+	"research": "solar-panel"
+}

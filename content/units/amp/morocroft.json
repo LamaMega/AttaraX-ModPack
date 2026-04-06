@@ -1,0 +1,97 @@
+{
+    "controller": "DefenderAI",
+
+    "type": "flying",
+    "name": "[#65088A]Morocroft",
+    "description": "I think it flies or something?",
+    "speed": 2.0,
+    "accel": 0.125,
+    "drag": 0.0625,
+    "health": 375,
+    "buildSpeed": 2.6,
+    "rotateSpeed": 25,
+    "hitSize": 13,
+    "armor": 3,
+    "engineOffset": 8.5,
+    "flying": true,
+    "weapons": [
+        {
+            "name": "flakgun-core-2",
+            "reload": 70,
+            "x": 5,
+            "y": 2,
+            "top": false,
+            "rotate": false,
+            "shoot": {
+                "shots": 4,
+                "shotDelay": 3
+            },
+            "inaccuracy": 5,
+            "velocityRnd": 0.25,
+            "shootY": 3,
+            "ejectEffect": "casing2",
+            "shootSound": "shootBig",
+            "bullet": {
+                "type": "BasicBulletType",
+                "damage": 17,
+                "speed": 6.5,
+                "width": 8,
+                "height": 14,
+                "shootEffect": "shootSmall",
+                "smokeEffect": "shootSmallSmoke",
+                "lifetime": 42,
+                "sprite": "bullet"
+            }
+        },
+        {
+            "type": "RepairBeamWeapon",
+            "mirror": true,
+            "alternate": false,
+            "rotateSpeed": 8,
+            "y": 0,
+            "x": 0,
+          "reload": 1,
+          "rotate": true,
+          "shootSound": "laser",
+          "controllable": false,
+          "autoTarget": true,
+          "beamWidth": 0.6,
+          "pulseRadius": 6,
+          "pulseStroke": 2,
+          "targetBuildings": true,
+          "repairSpeed": 0.05,
+          "bullet": {
+            "shootEffect": "hitEmpSpark",
+            "speed": 5,
+            "maxRange": 100
+          }
+        },
+        {
+            "type": "RepairBeamWeapon",
+        "mirror": true,
+        "alternate": false,
+        "rotateSpeed": 8,
+        "y": 0,
+        "x": 0,
+      "reload": 1,
+      "rotate": true,
+      "shootSound": "laser",
+      "controllable": false,
+      "autoTarget": true,
+      "beamWidth": 0.6,
+      "pulseRadius": 6,
+      "pulseStroke": 2,
+      "targetBuildings": true,
+      "repairSpeed": 0.05,
+      "bullet": {
+        "shootEffect": "hitEmpSpark",
+        "speed": 5,
+        "maxRange": 100
+      }
+        }
+    ],
+    "immunities": [
+        "neutron-overcharge"
+    ],
+    "research": "attaraxian-factory"
+}

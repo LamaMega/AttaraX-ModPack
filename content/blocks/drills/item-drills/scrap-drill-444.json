@@ -1,0 +1,23 @@
+{
+  "type": "GenericCrafter",
+  "name": "Scrap drill",
+  "health": 100,
+  "size": 1,
+   "requirements": [
+    "lopper/150",
+    "silicon/150",
+    "titanium/150"
+   ],
+  "hasItems": true,
+  "research": "separator",
+  "craftTime": 15,
+  "category": "production",
+  "itemCapacity": 10,
+  "outputItem": { "item": "scrap", "amount": 1},
+
+  "connectedPower": true,
+  "conductivePower": true,
+  "hasPower": true,
+
+  "ambientSoundVolume": 0
+}

@@ -1,0 +1,37 @@
+{	
+  "name":"Slag Extractor",
+  "type": "GenericCrafter",
+  "size": 2,
+    "liquidCapacity":25,
+    "rotateSpeed": 1.8,
+    "pumpAmount": 0.2,
+    "consumes": {
+		"power": 5.0
+	},
+	"outputsLiquid": true,
+    "outputLiquid": "slag/0.4",
+	"requirements": [
+        "copper/115",
+        "lead/75",
+        "graphite/95",
+        "metaglass/145",
+        "silicon/65",
+        "titanium/175",
+        "lopper/50"
+	],
+	"category": "production",
+    "research": {
+		"parent": "7a-a-water-extractor-iii",
+		"requirements": [
+            "copper/1150",
+            "lead/750",
+            "graphite/950",
+            "metaglass/1450",
+            "silicon/650",
+            "titanium/1750",
+            "lopper/500"
+		]
+	},
+
+  "ambientSoundVolume": 0
+}

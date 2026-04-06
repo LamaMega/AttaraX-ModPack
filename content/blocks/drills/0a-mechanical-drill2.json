@@ -1,0 +1,38 @@
+{
+    "name": "Mechanical Drill 2",
+    "description": "Faster then a Mechanical Drill.",
+    "type": "Drill",
+    "size": 2,
+    "liquidCapacity": 3,
+    "tier": 2,
+    "drillTime": 300,
+    "conductivePower": false,
+    "consumes": {
+      "liquid": {
+        "liquid": "water",
+        "amount": 0.06,
+        "optional": true,
+        "booster": true
+      }
+    },
+    "liquidBoostIntensity":1.8,
+    "requirements": [
+      {
+        "item": "lopper",
+        "amount": 28
+      },
+      {
+        "item": "graphite",
+        "amount": 20
+      }
+    ],
+    "category": "production",
+    "research": {
+		"parent": "lopper-forge",
+		"requirements": [
+			"lopper/60"
+		]
+	},
+
+  "ambientSoundVolume": 0
+  }

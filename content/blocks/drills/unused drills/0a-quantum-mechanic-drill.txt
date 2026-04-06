@@ -1,0 +1,37 @@
+{
+    "name": " Mechanical Drill 3",
+    "description": "Faster then Pneumatic Drill.",
+    "type": "Drill",
+    "size": 2,
+    "liquidCapacity": 3,
+    "tier": 3,
+    "drillTime": 220,
+    "conductivePower": false,
+    "consumes": {
+      "liquid": {
+        "liquid": "water",
+        "amount": 0.2,
+        "optional": true,
+        "booster": true
+      }
+    },
+    "liquidBoostIntensity":2.0,
+    "requirements": [
+      {
+        "item": "lopper",
+        "amount": 45
+      },
+      {
+        "item":"graphite",
+        "amount": 25
+      },
+      {
+        "item": "lopper",
+        "amount": 15
+      }
+    ],
+    "category": "production",
+    "research": "0a-mechanical-drill2",
+
+    "ambientSoundVolume": 0
+  }

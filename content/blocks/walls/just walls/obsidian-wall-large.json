@@ -1,0 +1,21 @@
+{
+    "name": "[#65088A]large obsidian wall",
+    "description": "A large obsidian wall",
+    "type": "ForceProjector",
+    "health": 10000,
+    "shieldHealth": 2500,
+    "sides":6,
+    "shieldRotation":8.5,
+    "canOverdrive": true,
+    "radius": 15,
+    "cooldownNormal": 2,
+    "cooldownBrokenBase": 1.75,
+    "size": 2,
+    "requirements": [
+        "obsidian/24"
+    ],
+    "category": "defense",
+    "research": "obsidian-wall",
+
+    "ambientSoundVolume": 0
+}

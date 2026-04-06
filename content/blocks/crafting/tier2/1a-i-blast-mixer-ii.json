@@ -1,0 +1,55 @@
+{	
+  "name":"Blast-Mixer 2",
+  "type": "GenericCrafter",
+  "size": 3,
+"drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+  {
+    "type": "DrawDefault"
+  },
+  {
+    "type": "DrawRegion",
+    "suffix": "-spinner",
+    "rotateSpeed": 3,
+    "spinSprite": true
+  },
+  {
+    "type": "DrawRegion",
+    "suffix": "-top"
+  }
+               ]
+
+     },
+	"hasPower": true,
+	"hasItems": true,
+     "liquidCapacity": 15,
+	"itemCapacity": 20,
+	"craftTime": 90,
+	"consumes": {
+		"power": 2,
+		"items": {
+			"items": [
+                "pyratite/5",
+                "spore-pod/4"                        
+ 			]
+	  },
+      "liquid": {
+        "liquid": "oil",
+        "amount": 0.15
+    }
+                }
+              ,
+	"requirements": [
+        "lopper/100",
+        "titanium/160",
+        "silicon/85",
+        "metaglass/90",
+        "graphite/110"
+	],
+	"category": "crafting",
+	"research": "blast-mixer",
+	"outputItem": "blast-compound/5",
+
+  "ambientSoundVolume": 0
+}

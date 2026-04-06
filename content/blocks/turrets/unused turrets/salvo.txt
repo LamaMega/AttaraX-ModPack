@@ -1,0 +1,96 @@
+{
+    "ammoTypes": {
+       "graphite":{
+			"type" : "BasicBulletType",
+			"damage":20,
+			"speed":8,
+			"pierceArmor" : true,
+  			"pierce": true,
+      			"pierceCap":3,
+			"reloadMultiplier":0.8,
+			"hitSize":4,
+			"lifetime":50,
+			"width" : 7,
+			"height" : 9
+		},
+		"silicon":{
+			"type" : "BasicBulletType",
+			"damage":18,
+			"speed":8,
+			"pierceArmor" : true,
+  			"pierce": true,
+      			"pierceCap":3,
+			"hitSize":4,
+			"lifetime":50,
+			"width" : 7,
+			"height" : 9,
+			"reloadMultiplier":1.5,
+			"ammoMultiplier":4,
+			"homingPower":0.1
+		},
+		"copper":{
+			"type" : "BasicBulletType",
+			"damage":12,
+			"speed":8,
+			"pierceArmor" : true,
+  			"pierce": true,
+      			"pierceCap":3,
+			"hitSize":4,
+			"lifetime":50,
+			"width" : 7,
+			"height" : 9
+		},
+		"pyratite":{
+			"type" : "BasicBulletType",
+			"damage":26,
+			"speed":8,
+			"pierceArmor" : true,
+			"hitSize":4,
+			"lifetime":50,
+			"width" : 7,
+			"height" : 9,
+			"ammoMultiplier":6,
+			"splashDamageRadius":20,
+			"splashDamage":15,
+			"hitEffect" : "fireHit",
+			"makeFire" : true,
+  			"pierce": true,
+      			"pierceCap":3,
+			"status":"burning",
+			"statusDuration":360
+		},
+		"thorium":{
+			"type" : "BasicBulletType",
+			"damage":33,
+			"speed":8,
+			"pierceArmor" : true,
+			"hitSize":4,
+			"lifetime":50,
+			"width" : 7,
+			"height" : 9,
+  			"pierce": true,
+      			"pierceCap":3,
+			"ammoMultiplier":2
+		}
+
+    },
+    "targetAir": true,
+    "size": 2,
+    "shoot": {
+        "shots": 3,
+	"shotDelay" : 4
+    },
+    "reload": 20,
+    "ammoEjectBack": 3,
+    "ammoUseEffect" : "casing2",
+    "recoil": 0,
+    "range": 250,
+    "scaledHealth": 350,
+    "requirements" : [
+	"copper / 60",
+	"graphite / 50",
+	"titanium / 30"
+    ],
+    "coolantMultiplier" : 6,
+    "liquidCapacity": 40
+}

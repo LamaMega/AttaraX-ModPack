@@ -1,0 +1,12 @@
+{
+    "name": "[#65088A]obsidian wall",
+    "description": "An obsidian wall",
+    "type": "Wall",
+    "health": 2800,
+    "size": 1,
+    "requirements": [
+        "obsidian/6"
+    ],
+    "category": "defense",
+    "research": "phase-wall-large"
+}

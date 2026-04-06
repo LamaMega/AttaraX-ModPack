@@ -1,0 +1,26 @@
+{
+    "type": "GenericCrafter",
+    "name": "phase-express",
+    "description": "phase fabric, but more",
+    "size": 2,
+    "hasPower": true,
+    "hasItems": true,
+    "itemCapacity": 100,
+    "craftTime": 20,
+	"buildCostMultiplier":0.5,
+    "updateEffect": "smeltsmoke",
+    "consumes": { "power": 2.25, "items": { "items": [
+        { "item": "thorium", "amount": 4 },
+        { "item": "sand", "amount": 8 }
+		] } },
+	"outputItem": {"item": "phase-fabric", "amount": 3},
+    "requirements": [
+        { "item": "compressed-thorium", "amount": 150 },
+        { "item": "compressed-lead", "amount": 200 },
+        { "item": "silicon", "amount": 250 }
+		],
+    "category": "crafting",
+    "research": "phase-weaver",
+
+    "ambientSoundVolume": 0
+}

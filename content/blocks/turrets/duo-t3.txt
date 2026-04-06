@@ -1,0 +1,66 @@
+{
+    
+    "name": "Duo 3",
+    "type": "ItemTurret",
+    "health": 420,
+    "size": 1,
+    "reload": 11,
+    "shake": 1,
+    "range": 150,
+    "rotateSpeed": 20,
+    "recoil": 2,
+    "shootCone": 8,
+    "ammoTypes": {
+        "copper":{
+            "type":"BasicBulletType",
+            "length": 155,
+            "damage": 15,
+            "ammoMultiplier": 2,
+            "width": 6,
+            "reloadMultiplier": 1.3,
+            "lifetime": 45,
+            "speed": 3.5
+        },
+        "lopper": {
+            "type": "BasicBulletType",
+            "length": 155,
+            "damage": 18,
+            "ammoMultiplier": 3,
+            "width": 6,
+            "reloadMultiplier": 1.5,
+            "lifetime": 45,
+            "speed": 3.5
+        },
+        "silicon": {
+            "type": "BasicBulletType",
+            "length": 155,
+            "damage": 21,
+            "ammoMultiplier": 5,
+            "width": 10,
+            "toColor": "ec6fff",
+            "reloadMultiplier": 1.5,
+            "homingPower":0.2,
+            "lifetime": 60,
+            "speed": 3.5
+        },
+        "graphite":{
+            "type":"BasicBulletType",
+            "length": 155,
+            "damage": 24,
+            "ammoMultiplier": 5,
+            "width": 8,
+            "toColor": "ecffec",
+            "lifetime": 45,
+            "speed": 3.5
+        }
+    },
+    "category": "turret",
+    "research": "duo-t2",
+    "requirements": [    
+        "copper/75",
+        "lead/50",
+        "graphite/65",
+        "lopper/175",
+        "silicon/30"
+    ]
+}

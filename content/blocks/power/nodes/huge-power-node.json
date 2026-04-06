@@ -1,0 +1,17 @@
+{
+"name": "Large Power Node 2",
+"type": "PowerNode",
+"description": "Connecting People",
+"size": 2,
+"requirements": [
+    "lopper/45",
+    "graphite/65",
+    "silicon/35",
+    "plastanium/15"
+
+],
+"laserRange": 25,
+"maxNodes": 25,
+"category": "power",
+"research": "power-node"
+}

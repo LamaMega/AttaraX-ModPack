@@ -1,0 +1,31 @@
+{
+  "type": "StackConveyor",
+  "name": "SS Conveyor",
+  "description": "A faster Stack conveyor then Plastanium conveyor.",
+  "category": "distribution",
+  "health": 110,
+  "speed":0.5,
+  "itemCapacity": 25,
+
+  "requirements": [
+      "lopper/10",
+      "titanium/10",
+      "thorium/10",
+      "plastanium/10",
+      "phase-fabric/10",
+      "compressed-surge-alloy/3",
+      "obsidian/3"
+  ],
+  "research": {
+    "parent": "plastanium-conveyor",
+    "requirements": [
+      "lopper/1000",
+      "titanium/1000",
+      "thorium/1000",
+      "plastanium/1000",
+      "phase-fabric/1000",
+      "compressed-surge-alloy/1000",
+      "obsidian/1000"
+    ]
+}
+}

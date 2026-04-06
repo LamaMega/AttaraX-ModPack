@@ -1,0 +1,5 @@
+{
+    "name":"conveyor",
+    "speed": 0.033,
+    "health": 25
+}

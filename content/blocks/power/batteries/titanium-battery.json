@@ -1,0 +1,17 @@
+{
+    "type":"Battery",
+    "name":"Titanium Battery",
+    "description": "A good battery with titanium cover",
+    "category":"power",
+    "size": 3,
+    "health": 1200,
+    "requirements": [
+        "lopper/350",
+        "graphite/500",
+        "silicon/100",
+        "titanium/80",
+        "thorium/250"
+      ],
+    "research":"battery-large",
+    "consumes": { "powerBuffered": 300000}
+}

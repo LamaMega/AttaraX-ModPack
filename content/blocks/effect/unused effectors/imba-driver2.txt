@@ -1,0 +1,19 @@
+{
+    "type": "OverdriveProjector",
+    "name": "Imba Overdriver",
+    "description": "Stronk Overdriver",
+    "size": 1,
+    "category" : "effect",
+    "health" : 1000,
+    "conductivePower": true,
+    "hasBoost": true,
+    "range" : 256,
+    "speedBoost": 6.0,
+    "consumesPower": true,
+    "requirements": [
+        {
+          "item": "budzanderium",
+          "amount": 0
+        }
+      ]
+}

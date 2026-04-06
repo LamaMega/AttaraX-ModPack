@@ -1,0 +1,8 @@
+{
+    "name": "[#FFF574]compressed surge alloy",
+    "explosiveness": 0.40,
+    "flammability": 0,
+    "radioactivity": 18.0,
+    "charge": 0,
+    "research": "surge-alloy-compressor"
+}

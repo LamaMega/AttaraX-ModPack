@@ -1,0 +1,8 @@
+{
+    "name": "[#5f7828]compressed plastanium",
+    "description": "compressed plastanium",
+    "explosiveness": 0.40,
+    "flammability": 15,
+    "charge": 0,
+    "research": "plastanium-compressor"
+}

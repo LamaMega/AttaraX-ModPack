@@ -1,0 +1,20 @@
+// Removed block "IMBA"
+
+{
+    "type": "Conveyor",
+    "name": "compressed conveyor",
+    "description": "A compressed copper conveyor, little faster and more durable then conveyor!",
+    "category": "distribution",
+    "health": 30,
+    "speed": 0.045,
+    "displayedSpeed": 6.5,
+    "requirements": [
+        "compressed-copper/1"
+    ],
+    "research": {
+		"parent": "conveyor",
+		"requirements": [
+			"compressed-copper/80"
+		]
+	}
+}

@@ -1,0 +1,15 @@
+{
+    "name":"vela",
+    "abilities": [
+        {
+          "type": "mindustry.entities.abilities.StatusFieldAbility",
+          "effect": "neutron-overcharge",
+          "parentizeEffects": true,
+          "effectY": 23,
+          "activeEffect": "none",
+          "range": 300,
+          "reload": 10,
+          "duration": 2
+        }
+    ]
+}

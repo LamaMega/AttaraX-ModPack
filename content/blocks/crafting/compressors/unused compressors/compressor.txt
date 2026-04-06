@@ -1,0 +1,28 @@
+{	
+	"name": "compressor",
+    "type": "GenericCrafter",
+    "description": "compresses copper",
+    "health": 100,
+	"size": 2,
+	"hasItems": true,
+	"itemCapacity": 100,	
+	"craftTime": 8,
+	"craftEffect": "smeltsmoke",
+	"updateEffect": "none",
+	"consumes": {
+		"items": {
+			"items": [
+               "copper/2"
+			]
+		}
+	},
+	"requirements": [
+        "copper/50",
+        "lead/25"
+	],
+	"category": "crafting",
+	"research": "mechanical-drill",
+	"outputItem": "compressed-copper/1",
+
+	"ambientSoundVolume": 0
+}

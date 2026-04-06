@@ -1,0 +1,30 @@
+{
+    "name": "[#28C76D]large alexanderium wall",
+    "description": "a large alexanderium wall, super super strong",
+    "type": "ForceProjector",
+    "health": 40000,
+    "chanceDeflect": 50,
+    "lightningChance": 0.25,
+    "lightningLength": 30,
+    "insulated": true,
+    "absorbLasers": true,
+    "lightningColor": "#19e6b9",
+    "lightningDamage": 55.0,
+    "buildCostMultiplier": 7.5,
+    "size": 2,
+    "requirements": [
+        "alexanderium/24"
+    ],
+    "category": "defense",
+    "research": "alexanderium-wall",
+
+    "shieldHealth": 7500,
+    "sides":6,
+    "shieldRotation":12.5,
+    "canOverdrive": true,
+    "radius": 30,
+    "cooldownNormal": 2,
+    "cooldownBrokenBase": 1.75,
+
+    "ambientSoundVolume": 0
+}

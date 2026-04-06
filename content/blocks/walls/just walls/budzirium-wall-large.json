@@ -1,0 +1,22 @@
+{
+    "name": "large budzirium wall",
+    "description": "a large budzirium wall, quickly  heals blocks around it with its stange properites",
+    "type": "MendProjector",
+    "health": 6800,
+    "buildCostMultiplier": 0,
+    "hasPower": false,
+    "phaseRangeBoost": 0,
+    "phaseBoost": 0,
+    "baseColor": "#004cff",
+    "hasItems": false,
+    "healPercent": 5,
+    "range": 55,
+    "reload": 25,
+    "size": 2,
+    "requirements": [
+        "budzirium/10",
+        "alexanderium/24"
+    ],
+    "category": "defense",
+    "research": "budzirium-wall"
+}

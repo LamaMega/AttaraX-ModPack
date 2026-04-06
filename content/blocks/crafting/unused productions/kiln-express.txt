@@ -1,0 +1,26 @@
+{
+    "type": "GenericCrafter",
+    "name": "kiln-express",
+    "description": "kiln, but more",
+    "size": 2,
+    "hasPower": true,
+    "hasItems": true,
+    "itemCapacity": 35,
+    "craftTime": 30,
+	"buildCostMultiplier": 0.5,
+    "updateEffect": "smeltsmoke",
+    "consumes": { "power": 1.5, "items": { "items": [
+        { "item": "lead", "amount": 2 },
+        { "item": "sand", "amount": 2 }
+		] } },
+	"outputItem": {"item": "metaglass", "amount": 2},
+    "requirements": [
+        { "item": "compressed-copper", "amount": 80 },
+        { "item": "compressed-lead", "amount": 60 },
+        { "item": "graphite", "amount": 50 }
+		],
+    "category": "crafting",
+    "research": "kiln",
+
+    "ambientSoundVolume": 0
+}

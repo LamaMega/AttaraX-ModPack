@@ -1,0 +1,138 @@
+"version": "0.5.8.3":
+{
+    Liquid Routers are 3 times more effiecent.
+    New Block: Diesel Refinery - "Refines Oil into Diesel"
+    New Liquid: Diesel - "It is used to run Diesel Engines for Efficient power production. Very Dangerous If Ignited!"
+}
+"version": "0.5.8.4":
+{
+    Budzanderium Overdriver Increased Build Cost
+    Budzanderium Overdriver Increased Effect Range
+    New Block: Radio - Plays the music file from "mod folder"/sounds/music.mp3
+    Removed Ambient sounds of most blocks
+}
+"version": "0.5.8.5":
+{
+    New Planet: "AttaraXia"
+    New Sector: "0"
+}
+"version": "0.5.8.6":
+{
+    New Block: Mini Solar Panel Express
+    New Block: Solar Panel Express
+    Increased the Drill Speed of [
+        Mechanical Drill
+        Mechanical Drill 2
+        Mechanical Drill 3
+        Pneumatic Drill
+    ]
+}
+"version" : "0.5.8.9":
+{
+    -Transparent Router Removed
+    -Compressed Conveyor Removed
+    -Graphite Express Removed
+    -Silicon Express Removed
+    -Kiln Express Removed 
+    -Phase Express Removed
+    -Mini Solar Panel Express Removed
+    -Big Solar Panel Express Removed
+
+    +Increased Graphite Conveyor Speed
+    -Decreased Lead Conveyor Speed
+    +Decreased Lead Conveyor Build Requierments
+
+    + Tier 6 Units Rebalanced
+    
+    -Dismantler Balanced
+}
+"version": "0.5.9.0":
+{
+    -T6 Units Overlcock effect Healing reduced
+    +Scatter 2 turret
+}
+"version": "0.6"
+{
+    -Removed Lead Walls
+    -Nerfed/Balanced Compressed Walls
+    ~Titanium Battery build cost changed
+}
+"version": "0.6.1"
+{
+    + Scrap, Coal, Sand Drills are now able to connect to power |Power Capacity: 0|
+    - Scrap, Coal, Sand Drills speed reduced from 2 Items per Second to 1 Item per second: 2/sec -> 1/sec
+    -Plastanium Drill Dry Speed and Boosted Speed reduced
+    + Liquid Router Capacity 60 -> 120 "Higher Capacity = More Transfer Rate"
+}
+"version": "0.6.2"
+{
+    + Added Slow Conveyor [Imported from mod: "production express"]
+}
+"version": "0.6.3"
+{
+    - Reduced Production time of Dismantler 1000 Per Second -> 50 Per Second
+}
+"version": "0.6.4"
+{
+    + Separators and Dissassamblers have insane amount of storage (2.1 Billion)
+    + Thorium Unloader Speed Increased 600 -> 6000
+}
+"version": "1.0.1"
+{
+    + Buffed Salvo to support more type of ammos and better at ranging ('*__*')
+}
+"version": "1.0.2"
+{
+    - Nerfed Hex (Tier 6 Green Air Unit)
+    + Buffed Salvo
+}
+"version": "1.0.3"
+{
+    - Removed most Tier 3 Production Blocs
+}
+"version": "1.0.4"
+{
+    +Titanium Bridge capacity increased 10 -> 100
+
+    -Separator item capacity 2.1Billion -> 150
+    -Dissassambler item capacity 2.1Billcion -> 500
+    -Graphite Conveyor Removed
+    -Lead Conveyor Removed
+    -Plastanium Conveyor speed reduced
+    -Compressed Titanium walls Removed
+    -Mechanical Drill 2 Removed
+    -Quantum mechanic drill Removed 
+    -Coal, Sand and Scrap Drills Capacity and Drill Time Increased but now is more expensive and forces you to build them later in the game
+    -Compressed Surge alloy now additionally requires 4 Silicon and 2 Thorium and 600 Power to run
+    -Unpulverizer Removed
+    -Big Crusher Removed
+    -Big Melter Removed
+    -Dismantler Capacity reduced 2.1Billion -> 210000 (210K)
+    -Removed Tier 3 Duo and Tier 3 Hail
+    +Added Large Power Node 2
+    +Increased flammability of Compressed Plastanium (More Power Production On Power Generators)
+    +Added RTG Generator 2
+    +Morocroft Units Can now Heal Blocks and Units (3 Hp Per Second) x 2
+    +Increased Titanium Bridge Item Capcity 10 -> 100
+    
+}
+"version": "1.0.6"
+{
+    -Removed All Compressed items Except Compressed Surge Alloy
+}
+"version": "1.0.7"
+{
+    +Added New Tier 2 AttaraXian Unit (Stilocroft)
+    +Added New Reconstructor for AttaraXian Units (AttaraXian Reinforcer)
+}    
+"version": "1.0.8"
+{
+    -Lopper Forge now Needs 24 Ticks instead of 1 Tick, in order to compress 5 loppers instead of 25. (60 ticks = 1 second)
+}
+"version":1.1.0
+{
+    +Added Core: Genesis Titan Core (Imported from Exogenesis mod)
+    +Added Unit: Stardust Voyager (Imported from Exogenesis mod)
+    Version:1.1.1
+    -Reduced Extreme Overdriver's Speed Increase 375% -> 325%
+}

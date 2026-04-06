@@ -1,0 +1,44 @@
+{
+    "name": "Separator 2",
+    "description": "Separates compressed items from Slag.",
+    "type": "Separator",
+    "size": 2,
+    "hasPower": true,
+    "hasLiquid": true,
+    "hasItems": true,
+    "itemCapacity": 210000000,
+    "liquidCapacity": 10,
+    "craftTime": 13 ,
+    "consumes": {
+		"power": 16,
+        "liquid": {
+			"liquid": "slag",
+			"amount": 0.07
+		}
+	},
+    "results": [
+        "copper/1",
+        "lead/1",
+        "graphite/1",
+        "titanium/1"
+        ],
+    "category": "crafting",
+    "requirements": [
+            "lopper/400",
+            "titanium/150",
+            "metaglass/75",
+            "graphite/100",
+            "silicon/75"
+	],
+    "research": {
+		"parent": "separator",
+		"requirements": [
+			"lopper/3000",
+			"titanium/1600",
+            "lopper/1300",
+			"graphite/1300",
+			"silicon/1250"
+		]
+	}
+}
+

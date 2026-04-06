@@ -1,0 +1,75 @@
+{
+  "type": "PowerTurret",
+  "name": "Last Hope",
+
+  "size": 10,
+  "health": 15000,
+  "armor": 12,
+
+  "connectedPower": true,
+  "conductivePower": true,
+  "hasPower": true,
+ "consumes": {
+    "power": 1000
+  },
+
+  "range": 1100,
+  "rotateSpeed": 3.0,
+  "targetAir": true,
+  "targetGround": true,
+  "targetHealing": false,
+
+
+  "reloadTime": 0.0,
+  "cooldownTime": 0.0,
+  "inaccuracy": 0.0,
+  "shake": 0.0,
+  "shootDuration": 600,
+
+  "shootEffect": "shootSmall",
+  "smokeEffect": "none",
+  "heatColor": "ff9a6bff",
+  "shootSound": "beam",
+
+  "shootType": {
+    "type": "ContinuousLaserBulletType",
+    "damage": 333,
+    "length": 1100,
+    "drawSize": 1100,
+    "hitEffect": "hitMeltdown",
+    "hitColor": "meltdownHit",
+    "status": "melting",
+    "timescaleDamage": true,
+    "incendChance": 0.4,
+    "incendSpread": 5,
+    "incendAmount": 1,
+    "ammoMultiplier": 1
+  },
+
+  "description": "\n[red]Note: THIS IS FROM A MOD CALLED <MOARDUSTRY>.",
+  "category": "turret",
+  "buildVisibility": "shown",
+  "requirements": [
+    {"item": "lopper", "amount": 25000},
+    {"item": "silicon", "amount": 30000},
+     {"item": "metaglass", "amount": 15000},
+    {"item": "titanium", "amount": 17500},
+    {"item": "thorium", "amount": 22500},
+    {"item": "plastanium", "amount": 25000},
+    {"item": "phase-fabric", "amount": 15000},
+    {"item": "compressed-surge-alloy", "amount": 15000},
+    {"item": "obsidian", "amount": 10000}
+  ],
+
+  "researchRequirements": [
+    {"item": "lopper", "amount": 25000},
+    {"item": "silicon", "amount": 30000},
+     {"item": "metaglass", "amount": 15000},
+    {"item": "titanium", "amount": 17500},
+    {"item": "thorium", "amount": 22500},
+    {"item": "plastanium", "amount": 25000},
+    {"item": "phase-fabric", "amount": 15000},
+    {"item": "compressed-surge-alloy", "amount": 15000},
+    {"item": "obsidian", "amount": 10000}
+  ]
+}

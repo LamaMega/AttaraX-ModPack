@@ -1,0 +1,43 @@
+{	
+	"name": "Surge Alloy Compressor",
+    "type": "GenericCrafter",
+    "description": "compresses surge alloy",
+    "health": 550,
+	"size": 3,
+	"hasItems": true,
+	"itemCapacity": 100,	
+	"craftTime": 6,
+	"craftEffect": "smeltsmoke",
+	"updateEffect": "none",
+	"consumes": {
+		"power": 10,
+		"items": {
+			"items": [
+                "lopper/4",
+				"graphite/4",
+				"silicon/2",
+				"thorium/2",
+				"titanium/2",
+                "surge-alloy/1"
+			]
+		}
+	},
+	"requirements": [
+        "lopper/700",
+        "titanium/175",
+        "silicon/200"
+	],
+	"category": "crafting",
+	"research": {
+		"parent": "surge-smelter",
+		"requirements": [
+			"lopper/1000",
+			"titanium/600",
+			"graphite/300",
+			"silicon/250"
+		]
+	},
+	"outputItem": "compressed-surge-alloy/1",
+
+	"ambientSoundVolume": 0
+}

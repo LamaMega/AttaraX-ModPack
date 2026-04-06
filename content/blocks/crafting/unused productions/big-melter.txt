@@ -1,0 +1,28 @@
+{	
+	"name": "thick melter",
+    "type": "GenericCrafter",
+    "description": "its a bigger melter",
+    "health": 50,
+	"size": 2,
+	"hasItems": true,
+	"itemCapacity": 40,	
+	"craftTime": 20,
+	"liquidCapacity": 80,
+	"consumes": {
+		"power": 9.5,
+		"items": {
+			"items": [
+               "scrap/10"
+			]
+		}
+	},
+	"requirements": [
+		"lopper/200",
+        "graphite/90"
+	],
+	"category": "crafting",
+	"research": "melter",
+	"outputLiquid": "slag/0.3",
+
+	"ambientSoundVolume": 0
+}

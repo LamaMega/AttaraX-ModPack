@@ -1,0 +1,8 @@
+{
+    "name": "[#906287]compressed thorium",
+    "explosiveness": 0.40,
+    "flammability": 0,
+    "radioactivity": 6.0,
+    "charge": 0,
+    "research": "thorium-compressor"
+}

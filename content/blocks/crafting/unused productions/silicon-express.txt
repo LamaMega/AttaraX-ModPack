@@ -1,0 +1,25 @@
+{
+    "type": "GenericCrafter",
+    "name": "silicon-express",
+    "description": "Silicon, but more",
+    "size": 2,
+    "hasPower": true,
+    "hasItems": true,
+    "itemCapacity": 1000,
+    "craftTime": 20,
+	"buildCostMultiplier":0.5,
+    "updateEffect": "smeltsmoke",
+    "consumes": { "power": 3.5, "items": { "items": [
+        { "item": "coal", "amount": 1 },
+        { "item": "sand", "amount": 1 }
+		] } },
+	"outputItem": {"item": "silicon", "amount": 1},
+    "requirements": [
+        { "item": "compressed-copper", "amount": 90 },
+        { "item": "compressed-lead", "amount": 75 }
+		],
+    "category": "crafting",
+    "research": "silicon-smelter",
+
+    "ambientSoundVolume": 0
+}

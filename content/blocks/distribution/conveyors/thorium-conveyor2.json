@@ -1,0 +1,24 @@
+{
+    "type": "Conveyor",
+    "name": "Thorium Conveyor 2",
+  "description": "Faster than a Thorium Conveyor.",
+    "category": "distribution",
+    "health": 650,
+    "speed": 0.5,
+    "displayedSpeed": 50,
+    "junctionReplacement": "thorium-junction",
+    //"bridgeReplacement": "titanium-b",
+    "requirements": [
+      {"item": "lopper", "amount": 3},
+      {"item": "graphite", "amount": 3},
+      {"item": "silicon", "amount": 3},
+      {"item": "titanium", "amount": 3},
+      {"item": "thorium", "amount": 3},
+      {"item": "plastanium", "amount": 3},
+      {"item": "phase-fabric", "amount": 3},
+      {"item": "surge-alloy", "amount": 3},
+      {"item":  "thorium", "amount":3},
+      {"item":"compressed-surge-alloy", "amount":1}
+    ],
+    "research": "thorium-conveyor"
+  }

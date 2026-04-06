@@ -1,0 +1,45 @@
+{
+    "type": "OverdriveProjector",
+    "name": "Time Machine",
+    "description": "Removes the bounderies of time!",
+    "size": 3,
+    "category" : "effect",
+    "health" : 6666,
+    "conductivePower": true,
+    "hasBoost": true,
+    "range" : 700,
+    "speedBoost": 12.0,
+    "consumesPower": true,
+    "consumes": {
+        "power": 200
+    },
+    "requirements": [
+        {
+          "item": "obsidian",
+          "amount": 500
+        },
+        {
+          "item": "alexanderium",
+          "amount": 200
+        },
+        {
+          "item": "budzanderium",
+          "amount": 160
+        },
+        {
+          "item": "budzirium",
+          "amount": 100
+        }
+        
+      ],
+      "research": {
+        "parent": "extreme-overdriver",
+        "requirements": [
+          "alexanderium/720",
+          "budzirium/120",
+          "budzanderium/140"
+        ]
+      },
+
+      "ambientSoundVolume": 0
+}

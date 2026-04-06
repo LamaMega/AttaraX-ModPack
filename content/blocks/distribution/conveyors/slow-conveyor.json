@@ -1,0 +1,20 @@
+{
+    "type": "Conveyor",
+    "name": "Slow Conveyor",
+  "description": "Slower then a conveyor",
+    "category": "distribution",
+    "health": 65,
+    "speed": 0.01,
+    "displayedSpeed": 1.0,
+    "conductivePower": true,
+    "connectedPower": true,
+    "requirements": [
+        {"item": "silicon", "amount": 1}
+    ],
+    "research": {
+		"parent": "conveyor",
+		"requirements": [
+			"silicon/30"
+		]
+	}
+  }

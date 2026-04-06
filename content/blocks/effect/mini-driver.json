@@ -1,0 +1,35 @@
+{
+    "type": "OverdriveProjector",
+    "name": "Mini Driver",
+    "description": "Stronk Overdriver",
+    "size": 1,
+    "category" : "effect",
+    "health" : 125,
+    "conductivePower": true,
+    "hasBoost": true,
+    "range" : 50,
+    "speedBoost": 0.7,
+    "consumesPower": true,  
+    "consumes": {
+	    "power": 0.3
+      },
+    "requirements": [
+        {
+          "item": "graphite",
+          "amount": 30
+        },
+        {
+         "item":"silicon",
+          "amount": 50
+        },
+        {
+          "item":"lopper",
+          "amount": 80
+        }
+        
+      ],
+      "research": "mender",
+
+      "ambientSoundVolume": 0
+
+}

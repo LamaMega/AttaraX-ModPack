@@ -1,0 +1,67 @@
+{
+    "name": "Scatter 2",
+    "type": "ItemTurret",
+    "health": 1300,
+    "size": 2,
+    "reload": 12,
+    "shake": 1,
+    "range": 250,
+    "rotateSpeed": 20,
+    "recoil": 2,
+    "shootCone": 8,
+    "targetGround": false,
+
+    "ammoTypes": {
+        "lead":{
+            "type":"BasicBulletType",
+            "length": 130,
+            "damage": 12,
+            "ammoMultiplier": 1,
+            "width": 8,
+            "reloadMultiplier": 1.3,
+            "lifetime": 75,
+            "speed": 3.7
+        },
+        "metaglass": {
+            "type": "BasicBulletType",
+            "length": 130,
+            "damage": 12,
+            "ammoMultiplier": 2,
+            "width": 8,
+            "reloadMultiplier": 1.5,
+            "lifetime": 75,
+            "speed": 3.7
+        },
+        "scrap": {
+            "type": "BasicBulletType",
+            "length": 130,
+            "damage": 10,
+            "ammoMultiplier": 1,
+            "width": 10,
+            "toColor": "ec6fff",
+            "reloadMultiplier": 1.5,
+            "homingPower":0.1,
+            "lifetime": 75,
+            "speed": 3.7
+        },
+        "lopper":{
+            "type":"BasicBulletType",
+            "length": 130,
+            "damage": 9,
+            "ammoMultiplier": 3,
+            "width": 22,
+            "reloadMultiplier": 1.3,
+            "homingPower":0.33,
+            "lifetime": 75,
+            "speed": 4.2
+        }
+    },
+    "category": "turret",
+    "research": "scatter",
+    "requirements": [    
+        "copper/115",
+        "lead/65",
+        "lopper/125",
+        "silicon/30"
+]   
+}

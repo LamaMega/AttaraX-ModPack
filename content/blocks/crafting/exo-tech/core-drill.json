@@ -1,0 +1,93 @@
+{
+  "name":"Dismantler",
+  "type": "Separator",
+  "size": 9,
+  "itemCapacity":210000000,
+  "liquidCapacity": 100,
+  "spinnerSpeed": 16,
+  "craftTime": 0.000001,
+  "hasItems": true,
+  "hasLiquids": true,
+  "hasPower": true,
+  "consumes": {
+    "power": 600,
+    "liquid": {
+      "liquid": "slag",
+      "amount": 3.0
+    }
+  },
+  "requirements": [
+    {
+      "item": "lopper",
+      "amount": 16000
+    },
+    {
+      "item": "graphite",
+      "amount": 15000
+    },
+    {
+      "item": "silicon",
+      "amount": 12000
+    },
+    {
+      "item": "spore-pod"
+      ,"amount": 2000
+    },
+    {
+      "item": "titanium",
+      "amount": 8000
+    },
+    {
+      "item": "plastanium",
+      "amount": 6000
+    },
+    {
+      "item": "surge-alloy",
+      "amount": 4000
+    }
+  ],
+  "category": "crafting",
+  "research": "0a1-core-living",
+  "results": [
+    {
+      "item":"lopper",
+      "amount":1
+    },
+    {
+      "item":"metaglass",
+      "amount":1
+    },
+    {
+      "item":"silicon",
+      "amount": 2
+    },
+    {
+      "item": "titanium",
+      "amount": 1
+    },
+    {
+      "item":"plastanium",
+      "amount":2
+    },
+    {
+      "item": "thorium",
+      "amount": 1
+    },
+    {
+      "item":"phase-fabric",
+      "amount":2
+    },
+    {
+      "item": "surge-alloy",
+      "amount": 2
+    },
+    {
+      "item":"pyratite",
+      "amount":1
+    }
+  ],
+
+  "ambientSoundVolume": 0
+}
+
+

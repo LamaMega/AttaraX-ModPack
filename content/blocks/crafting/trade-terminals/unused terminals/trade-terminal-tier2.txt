@@ -1,0 +1,31 @@
+{
+    "type": "GenericCrafter",
+    "name": "Trade Terminal 2",
+    "description": "Trades Lead for Titanium",
+    "size": 3,
+    "outputItem": {"item": "titanium", "amount": 1},
+    "hasPower": true,
+    "hasLiquids": false,
+    "craftTime": 2,
+    "consumes": {
+        "power": 5.5,
+        "items": {
+            "items": [
+                { "item": "lead", "amount": 2 }
+            ],
+            "optional": false
+        }
+    },
+    "requirements":[
+        { "item": "lead", "amount": 4000 }
+    ],
+    "category": "effect",
+    "research": {
+		"parent": "trade-terminal-tier1",
+		"requirements": [
+			"lead/12000"
+		]
+	},
+
+    "ambientSoundVolume": 0
+}

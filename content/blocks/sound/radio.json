@@ -1,0 +1,33 @@
+
+{
+    "name": "Radio",
+    "category": "effect",
+    "description": "[]You can chill with everytype music.mp3 Even custome one! Go in the mod folder -> /sounds and replace music.mp3 by your own (must be in .mp3)\n[#9F0001][Might be haunted]\nImorted from mod: mindustrinity (The file name must be 'music')",
+    "size": 2,
+    "health": 250,
+    "ambientSound": "music",
+    "ambientSoundVolume": 0.55,
+    "type": "GenericCrafter",
+    "craftTime": 155,
+    "requirements": [
+        "copper/1"
+    ],
+    "craftEffect": {
+        "type": "WaveEffect",
+        "line": true,
+        "particles": 1,
+        "lifetime": 140,
+        "length": 35,
+        "sizeFrom": 0,
+        "sizeTo": 24,
+        "colorFrom": "5A0001FFF",
+        "colorTo": "5A000100"
+    },
+    "research": {
+        "parent":"mender",
+        "requirements":[
+            "silicon/15"
+        ]
+    }
+    
+}

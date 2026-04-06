@@ -1,0 +1,31 @@
+{
+    "type": "GenericCrafter",
+    "name": "Trade Terminal 1",
+    "description": "Trades Copper for Lead",
+    "size": 3,
+    "outputItem": {"item": "lead", "amount": 1},
+    "hasPower": true,
+    "hasLiquids": false,
+    "craftTime": 0.1,
+    "consumes": {
+        "power": 3.5,
+        "items": {
+            "items": [
+                { "item": "copper", "amount": 2 }
+            ],
+            "optional": false
+        }
+    },
+    "requirements":[
+        { "item": "copper", "amount": 4000 }
+    ],
+    "category": "effect",
+    "research": {
+		"parent": "lead-conveyor",
+		"requirements": [
+			"copper/12000"
+		]
+    },
+
+    "ambientSoundVolume": 0
+}

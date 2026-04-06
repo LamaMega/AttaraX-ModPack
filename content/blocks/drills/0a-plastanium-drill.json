@@ -1,0 +1,51 @@
+{
+    "name": "Compressed Drill",
+    "description": "Stronk Drill.",
+    "type": "Drill",
+    "size": 4,
+    "liquidCapacity": 300,
+    "tier": 6,
+    "drillTime": 95,
+
+    "rotateSpeed": 4,
+    "warmupSpeed": 0.09,
+    "drillEffect": "mine",
+
+    "conductivePower": true,
+    "consumes": {
+    "power": 10,
+      "liquid": {
+        "liquid": "water",
+        "amount": 0.07,
+        "optional": true,
+        "booster": true
+      }
+    },
+    "liquidBoostIntensity":1.8,
+    "requirements": [
+      {
+        "item": "graphite",
+        "amount": 500
+      },
+      {
+        "item": "silicon",
+        "amount":350
+      },
+      {
+        "item": "titanium",
+        "amount": 150
+      },
+      {
+        "item": "thorium",
+        "amount":100
+      },
+      {
+        "item": "plastanium",
+        "amount": 150
+      }
+    ],
+    "category": "production",
+    "research": "thorium-conveyor",
+
+    "ambientSoundVolume": 0
+  }

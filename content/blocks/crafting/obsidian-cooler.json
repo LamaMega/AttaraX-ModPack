@@ -1,0 +1,31 @@
+{
+    "name": "obsidian generator",
+    "type": "GenericCrafter",
+    "description": "rapidly cools slag with cryofluid to make obsidian",
+    "health": 140,
+    "size": 3,
+    "hasItems": true,
+    "hasLiquids": true,
+    "itemCapacity": 100,
+    "craftTime": 120,
+    "buildCostMultiplier": 0.2,
+    "consumes": {
+        "power": 8,
+        "liquids": [
+            "slag/0.5",
+            "cryofluid/0.5"
+        ]
+	},
+    "requirements": [
+        "thorium/200",
+        "titanium/150",
+        "lopper/150",
+        "graphite/95",
+        "silicon/100"
+    ],
+    "category": "crafting",
+    "research": "lopper-forge",
+    "outputItem": "obsidian/6",
+
+    "ambientSoundVolume": 0
+}

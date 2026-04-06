@@ -1,0 +1,9 @@
+{
+    "name": "Budzanderium",
+    "description": "A mix of Budzirium and Alexanderium",
+    "explosiveness": 3,
+    "flammability": 3,
+    "charge": 0.7,
+    "radioactivity": 88,
+    "research": "mass-collider"
+}

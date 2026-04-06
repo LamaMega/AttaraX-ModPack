@@ -1,0 +1,22 @@
+{
+    "name": "Thermal Generator 2",
+    "type": "ThermalGenerator",
+    "size": 3,
+    "powerProduction": 3.8,
+    "generateEffect": "redgeneratespark",
+    "floating": true,
+    "boostScale": 0.15,
+    "maxBoost": 1.8,
+    "ambientSound": "hum",
+    "ambientSoundVolume": 0,
+    "requirements": [
+      "lopper/200",
+      "graphite/350",
+      "silicon/250",
+      "titanium/200",
+      "thorium/335",
+      "plastanium/125"
+    ],
+    "category": "power",
+    "research": "thermal-generator"
+}

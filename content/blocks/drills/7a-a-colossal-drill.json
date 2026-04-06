@@ -1,0 +1,44 @@
+{
+  "name":"Colossal Drill",
+    "type": "Drill",
+    "size": 5,
+    "tier": 14,
+    "rotateSpeed": 4,
+    "drillTime": 66,
+    "liquidBoostIntensity": 1.9,
+    "drawRim": true,
+    "itemCapacity": 50,
+    "warmupSpeed": 0.0878,
+    "drillEffect": "mine",
+    "hasLiquids": true,
+    "hardnessDrillMultiplier": 5,
+    "liquidCapacity": 25,
+    "expanded": true,
+    "consumes": {
+      "power": 35,
+      "liquid": {
+        "liquid": "cryofluid",
+        "amount": 0.12,
+        "booster": false,
+        "optional": true
+      }
+    },
+    "requirements": [
+      "lopper/1200",
+      "graphite/600",
+      "silicon/850",
+      "metaglass/500",
+      "plastanium/500",
+      "thorium/400",
+      "surge-alloy/250",
+      "titanium/300",
+      "thorium/150",
+      "phase-fabric/100",
+      "surge-alloy/75",
+      "obsidian/50"
+    ],
+    "category": "production",
+    "research": "0a-plastanium-drill",
+
+    "ambientSoundVolume": 0
+  }

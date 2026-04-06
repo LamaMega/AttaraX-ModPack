@@ -1,0 +1,54 @@
+{	
+  "name":"Pulverizer 2",
+"type": "GenericCrafter",
+"size": 2,
+"drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+  {
+    "type": "DrawDefault"
+  },
+  {
+    "type": "DrawRegion",
+    "suffix": "-rotator",
+    "rotateSpeed": -4,
+    "spinSprite": true
+  },
+  {
+    "type": "DrawRegion",
+    "suffix": "-top"
+  }
+               ]
+
+     },
+"hasPower": true,
+	"hasItems": true,
+	"itemCapacity": 30,
+    "liquidCapacity": 30,
+	"craftTime": 70,
+	"craftEffect": "pulverize",
+	"updateEffect": "pulverizeSmall",
+    "ambientSound": "grinding",
+    "ambientSoundVolume": 0.0,
+	"consumes": {
+		"power": 2.5,
+		"items": {
+			"items": [
+               "scrap/10"
+			]
+		},
+       "liquid": {
+			"liquid": "water",
+			"amount": 0.1
+		}
+	},
+	"requirements": [
+    "titanium/75",
+    "lopper/65",
+    "graphite/40",
+    "silicon/55"
+	],
+	"category": "crafting",
+	"research": "pulverizer",
+	"outputItem": "sand/15"
+}

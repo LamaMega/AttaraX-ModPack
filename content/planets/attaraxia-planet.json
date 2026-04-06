@@ -1,0 +1,30 @@
+{
+    "generator": "SeruloPlanetGenerator",
+    "localizedName": "AttaraXia",
+    "parent":"attaraxia-planet",
+
+    "orbitRadius": 7,
+    "hasAtmosphere": false,
+    "updateLighting": false,
+    "atmosphereRadIn": 0.1,
+    "atmosphereRadOut": 0.3,
+    "atmosphereColor": "0090ff",
+    "drawOrbit": true,
+
+
+    "accessilbe": true,
+    "alwaysUnlocked": true,
+    "defaultCore": "core-nucleus",
+    "sectorSeed": 0,
+    "startSector": 0,
+    "sectorSize": 1,
+
+    "clearSectorOnLose": true,
+    "allowSectorInvasion": true,
+    "allowLaunchToNumbered": false,
+
+    "hiddenItems": [
+
+    ]
+
+}

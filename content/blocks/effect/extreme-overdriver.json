@@ -1,0 +1,60 @@
+{
+    "type": "OverdriveProjector",
+    "name": "Extreme Overdriver",
+    "description": "Stronk Overdriver",
+    "size": 3,
+    "category" : "effect",
+    "health" : 3000,
+    "conductivePower": true,
+    "hasBoost": true,
+    "range" : 500,
+    "speedBoost": 3.5,
+    "itemCapacity": 1000,
+    "consumesPower": true,  
+    "consumes": {
+        "power": 75,
+        "items": {
+          "items": [
+            "silicon/5"
+          ]
+        }
+    },
+    "requirements": [
+        {
+          "item": "lopper",
+          "amount": 250
+        },
+        {
+          "item":"graphite",
+          "amount": 800
+        },
+        {
+          "item": "silicon",
+          "amount": 150
+        },
+        {
+          "item": "titanium",
+          "amount": 300
+        },
+        {
+          "item": "thorium",
+          "amount": 300
+        },
+        {
+          "item": "plastanium",
+          "amount": 450
+        },
+        {
+          "item": "phase-fabric",
+          "amount": 150
+        },
+        {
+          "item": "compressed-surge-alloy",
+          "amount": 300
+        }
+      ],
+      "research": "mini-driver",
+
+      "ambientSoundVolume": 0
+
+}

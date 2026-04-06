@@ -1,0 +1,29 @@
+{	
+	"name": "Copper Decompressor",
+    "type": "GenericCrafter",
+    "description": "Decompress Compressed Copper",
+    "health": 100,
+	"size": 2,
+	"hasItems": true,
+	"itemCapacity": 60,	
+	"craftTime": 8,
+	"craftEffect": "smeltsmoke",
+	"updateEffect": "none",
+	"consumes": {
+		"items": {
+			"items": [
+               "compressed-copper/1"
+			]
+		}
+	},
+	"requirements": [
+        "compressed-copper/50",
+        "lead/25",
+        "graphite/50"
+	],
+	"category": "crafting",
+	"research": "compressor",
+	"outputItem": "copper/3",
+
+	"ambientSoundVolume": 0
+}

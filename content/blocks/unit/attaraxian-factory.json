@@ -1,0 +1,46 @@
+{
+    "name": "Attaraxian UnitFactory",
+    "type": "UnitFactory",
+    "researchCostMultiplier": 0.04,
+    "size": 3,
+    "consumes": {
+      "power": 10
+    },
+    "plans": [
+      {
+        "unit": "morocroft",
+        "requirements": [
+          {
+            "item": "graphite",
+            "amount": 15
+          },
+          {
+            "item": "lopper",
+            "amount": 25
+          },
+          {
+            "item": "silicon",
+            "amount": 15
+          }
+        ],
+        "time": 660
+      }
+    ],
+    "requirements": [
+      {
+        "item": "graphite",
+        "amount": 225
+      },
+      {
+        "item": "lopper",
+        "amount": 150
+      },
+      {
+        "item": "silicon",
+        "amount": 100
+      }
+    ],
+    "category": "units",
+    "research": "ground-factory"
+  }
+  

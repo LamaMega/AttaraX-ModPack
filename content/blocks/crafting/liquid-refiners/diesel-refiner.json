@@ -1,0 +1,37 @@
+{
+    "type": "GenericCrafter",
+    "category": "crafting",
+
+    "name":"diesel refinery",
+    "size": 2,
+    "hasItems": true,
+    "hasLiquids": true,
+    "itemCapacity": 30,
+    "liquidCapacity": 60,
+    "craftTime": 60,
+    "consumes": {
+		"power": 1,
+        "liquid": { "liquid": "oil", "amount": 0.5}
+	},
+
+	"outputLiquid": "diesel/0.64",
+    
+    "requirements": [
+        "lopper/300",
+        "titanium/125",
+        "silicon/100",
+        "plastanium/75"
+	],
+    "research": {
+        "parent": "combustion-engine2",
+            "requirements": [
+                "lopper/3000",
+                "titanium/1250",
+                "silicon/1000",
+                "plastanium/750"
+        ]
+    
+    },
+
+    "ambientSoundVolume": 0
+}

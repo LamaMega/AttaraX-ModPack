@@ -1,0 +1,19 @@
+{
+    "type": "StorageBlock",
+    "name": "Vault 3",
+    "description": "Really?",
+    "category": "effect",
+    "health": 1900,
+    "itemCapacity": 22000,
+    "size": 3,
+    "hasItems": true,
+    "requirements": [
+        "copper/600",
+        "lead/750",
+        "titanium/950",
+        "lopper/1000",
+        "thorium/650",
+        "phase-fabric/225"
+    ],
+    "research": "vault2"
+}

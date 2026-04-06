@@ -1,0 +1,18 @@
+{
+    "type": "StorageBlock",
+    "name": "Vault 2",
+    "description": "Do you really need explanation for this?",
+    "category": "effect",
+    "health": 990,
+    "itemCapacity": 9000,
+    "size": 3,
+    "hasItems": true,
+    "requirements": [
+        "copper/240",
+        "lead/300",
+        "lopper/300",
+        "titanium/350",
+        "thorium/300"
+    ],
+    "research": "vault"
+}

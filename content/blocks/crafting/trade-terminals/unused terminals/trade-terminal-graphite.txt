@@ -1,0 +1,31 @@
+{
+    "type": "GenericCrafter",
+    "name": "Coal Terminal",
+    "description": "Trades Copper and Lead for Coal. Generally used in early game maps where there are no coal.",
+    "size": 3,
+    "outputItem": {"item": "coal", "amount": 1},
+    "hasPower": true,
+    "hasLiquids": false,
+    "craftTime": 1,
+    "consumes": {
+        "items": {
+            "items": [
+                { "item": "copper", "amount": 2 },
+                {"item":"lead", "amount": 2}
+            ],
+            "optional": false
+        }
+    },
+    "requirements":[
+        { "item": "copper", "amount": 1000 }
+    ],
+    "category": "effect",
+    "research": {
+		"parent": "lead-conveyor",
+		"requirements": [
+			"copper/500"
+		]
+	},
+
+    "ambientSoundVolume": 0
+}

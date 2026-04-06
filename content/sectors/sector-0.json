@@ -1,0 +1,16 @@
+{
+    "planet":"attaraxia-planet",
+    "name": 0,
+    "localizedName": "0",
+    "description": "The beginning of The New End",
+    "captureWave": 30,
+    "difficulty": 6,
+    "alwaysUnlocked": true,
+    "addStartingItems": true,
+    "startWaveTimeMultiplier": 3,
+    "useAi": false,
+    "showSectorLandInfo": true,
+    "sector": 0,
+    "loadout": "sector-0"
+    
+}

@@ -1,0 +1,67 @@
+{
+    "name": "Universal Reconstructor",
+    "description":"Every unit :)!",
+    "type": "Reconstructor",
+    "size": 11,
+    "constructTime": 16000,
+    "liquidCapacity": 380,
+    "consumes": {
+      "power": 48,
+      "items": {
+        "items": [
+          "silicon/1600",
+          "surge-alloy/1000",
+          "compressed-surge-alloy/550",
+          "phase-fabric/750",
+          "metaglass/1000",
+          "obsidian/750",
+          "plastanium/900",
+          "titanium/1000"
+        ]
+      }
+    },
+    "requirements": [
+      "silicon/1300",
+      "surge-alloy/550",
+      "compressed-surge-alloy/500",
+      "metaglass/650",
+      "lead/1600",
+      "thorium/1500",
+      "plastanium/600",
+      "phase-fabric/580",
+      "obsidian/350"
+    ],
+    "upgrades": [
+      [
+        "flare",
+        "twilight"
+      ],
+      [
+        "dagger",
+        "anvil"
+      ],
+      [
+        "crawler",
+        "toxicity"
+      ],
+      [
+        "mono",
+        "hex"
+      ],
+      [
+        "risso",
+        "orca"
+      ],
+      [
+        "retusa",
+        "mariana"
+      ],
+      [
+        "nova",
+        "stella"
+      ]
+    ],
+    "category": "units",
+    "research": "tetrative-reconstructor"
+  }
+  

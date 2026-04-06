@@ -1,0 +1,27 @@
+{
+  "name":"Genesis Titan Core",
+  "type": "CoreBlock",
+  "description":"A giant Core imported from Exogenesis mod",
+  "health": 90000,
+  "size": 10,
+  "armor": 10,
+  "itemCapacity": 140000,
+  "unitCapModifier": 200,
+  "researchCostMultiplier": 0.03,
+  "unitType": "stardust-voyager",
+  "requirements": [
+        "lopper/100000",
+        "metaglass/50000",
+        "graphite/100000",
+        "titanium/80000",
+        "plastanium/35000",
+        "silicon/48000",
+        "thorium/60000",
+        "phase-fabric/16000",
+        "surge-alloy/25000",
+        "obsidian/15000",
+        "alexanderium/4000"
+  ],
+  "category": "effect",
+  "research": "0a1-core-living"
+}

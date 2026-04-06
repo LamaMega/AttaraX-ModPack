@@ -1,0 +1,28 @@
+{	
+	"name": "phase compressor",
+    "type": "GenericCrafter",
+    "description": "compresses phase fabric",	
+    "health": 150,
+	"size": 2,
+	"hasItems": true,
+	"itemCapacity": 100,	
+	"craftTime": 35,
+	"consumes": {
+		"power": 6.5,
+		"items": {
+			"items": [
+               "phase-fabric/2"
+			]
+		}
+	},
+	"requirements": [
+        "compressed-titanium/170",
+		"compressed-thorium/130",
+		"obsidian/100"
+	],
+	"category": "crafting",
+	"research": "thorium-compressor",
+	"outputItem": "compressed-phase/1",
+
+	"ambientSoundVolume": 0
+}

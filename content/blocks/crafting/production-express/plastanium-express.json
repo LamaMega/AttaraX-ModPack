@@ -1,0 +1,33 @@
+{
+    "type": "GenericCrafter",
+    "name": "Plastanium-express",
+    "description": "Plastanium, but more",
+    "size": 2,
+    "hasPower": true,
+    "hasItems": true,
+	"hasLiquids": true,
+    "itemCapacity": 100,
+	"liquidCapacity": 90,
+    "craftTime": 30,
+	"buildCostMultiplier":0.5,
+    "updateEffect": "smeltsmoke",
+    "consumes": { "power": 2.25, "items": [
+        { "item": "titanium", "amount": 5 }
+		],
+		"liquids": [
+        { "liquid": "oil", "amount": 0.6
+		} ]
+		},
+	"outputItem": {"item": "plastanium", "amount": 3},
+    "requirements": [
+        { "item": "lopper", "amount": 100 },
+        { "item": "graphite", "amount": 150 },
+        { "item": "silicon", "amount": 150 },
+        { "item": "titanium", "amount": 200 },
+        { "item": "thorium", "amount": 100 }
+		],
+    "category": "crafting",
+    "research": "plastanium-compressor",
+    
+    "ambientSoundVolume": 0
+}

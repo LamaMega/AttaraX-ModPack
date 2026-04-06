@@ -1,0 +1,11 @@
+{
+    "name": "Broium",
+    "description": "For Bro",
+    "explosiveness": 1,
+    "flammability": 1,
+    "charge": 0.9,
+    "radioactivity": 5,
+    "research": "0a-plastanium-drill",
+
+    "hardness": 6
+}

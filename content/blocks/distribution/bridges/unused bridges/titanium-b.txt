@@ -1,0 +1,18 @@
+{
+    "type": "ItemBridge",
+    "name": "Titanium Bridge",
+  "description": "Stronger, faster and longer reach than the standard Bridge Conveyor.",
+    "category": "distribution",
+    "health": 300,
+    "range": 17,
+    "speed": 30.0,
+    "hasPower": false,
+    "bufferCapacity": 100,
+    "itemCapacity":100,
+    "requirements": [
+        {"item": "silicon", "amount": 10},
+        {"item": "titanium", "amount": 10},
+        {"item": "thorium", "amount": 15}
+    ],
+    "research": "thorium-junction"
+  }

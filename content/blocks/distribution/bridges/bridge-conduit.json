@@ -1,0 +1,6 @@
+{
+   "name":"Bridge Conduit",
+   "range":24,
+   "speed":10,
+   "liquidCapacity": 100
+}

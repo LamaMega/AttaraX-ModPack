@@ -1,0 +1,34 @@
+{
+    "name": "AttaraXian Reinforcer",
+    "description": "A Tier 2 Reconstructor for Attaraxian Factory (tier 1)",
+    "type": "Reconstructor",
+    "category": "units",
+    "size": 3,
+    "constructTime": 1000,
+    "consumes": {
+        "power": 15,
+        "liquid": "water/0.5",
+        "items": {
+            "items": [
+                "lopper/65",
+                "graphite/120",
+                "silicon/75",
+                "titanium/50"
+            ]
+        }
+    },
+    "requirements": [
+      "lopper/300",
+      "graphite/500",
+      "silicon/250",
+      "titanium/175"
+    ],
+
+    "upgrades": [
+        [
+            "morocroft",
+            "stilocroft"
+        ]
+    ],
+    "research": "attaraxian-factory"
+}

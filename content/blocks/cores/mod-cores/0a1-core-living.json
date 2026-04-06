@@ -1,0 +1,31 @@
+{
+    "type": "CoreBlock",
+    "name": "Core: [#28C76D]Living",
+    "description": "livning core, 4th core upgrade. modified Network core code/sprites from z0mbiesrock's Larger-Cores mod",
+    "details": "Living core",
+    "size": 7,
+    "health": 40000,
+    "itemCapacity": 64000,
+
+    "researchCostMultiplier": 0.1,
+    "requirements": [
+        "lopper/11000",
+        "metaglass/5000",
+        "graphite/8000",
+        "titanium/2000",
+        "plastanium/1000",
+        "silicon/12000",
+        "thorium/6000",
+        "phase-fabric/4000",
+        "surge-alloy/4000",
+        "obsidian/4000",
+        "alexanderium/1000"
+    ],
+    "category": "effect",
+    "research": "0a-core-obsidian",
+    "unitType": "living-epsilon",
+    "unitCapModifier": 150,
+
+    "ambientSound": "music",
+    "ambientSoundVolume": 0.4
+}

@@ -1,0 +1,34 @@
+{
+    "type": "GenericCrafter",
+    "name": "Trade Terminal 4",
+    "description": "Trades Copper and Thorium for Phase Fabric",
+    "size": 3,
+    "outputItem": {"item": "phase-fabric", "amount": 1},
+    "hasPower": true,
+    "hasLiquids": false,
+    "craftTime": 4,
+    "consumes": {
+        "power": 10.5,
+        "items": {
+            "items": [
+                { "item": "copper", "amount": 2 },
+                {"item":"thorium","amount": 1}
+            ],
+            "optional": false
+        }
+    },
+    "requirements":[
+        { "item": "copper", "amount": 4000 },
+        { "item": "thorium", "amount": 4000 }
+    ],
+    "category": "effect",
+	"research": {
+		"parent": "trade-terminal-tier3",
+		"requirements": [
+			"copper/12000",
+            "thorium/12000"
+		]
+	},
+
+    "ambientSoundVolume": 0
+}

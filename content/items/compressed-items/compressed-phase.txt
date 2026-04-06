@@ -1,0 +1,8 @@
+{
+    "name": "[#ab503e]compressed phase fabric",
+    "explosiveness": 0,
+    "flammability": 0,
+    "radioactivity": 12.2,
+    "charge": 0,
+    "research": "phase-compressor"
+}

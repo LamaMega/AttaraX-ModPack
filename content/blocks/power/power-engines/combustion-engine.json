@@ -1,0 +1,26 @@
+{
+    "type": "ConsumeGenerator",
+    "name": "Combustion Generator 2",
+    "category": "power",
+    "size": 1,
+    "health": 350,
+    "hasPower": "true",
+    "hasItems": "true",
+    "itemCapacity": 10,
+    "powerProduction": 2.8,
+    "itemDuration": 225,
+    "outputsPower": "true",
+      "consumes": {
+        "itemFlammable": {}
+    },
+    "research": "combustion-generator",
+    "requirements": [
+        "copper/30",
+        "lead/30",
+        "graphite/45"
+      ],
+
+      "ambientSoundVolume": 0,
+
+      "generateEffect": "generatespark"
+}

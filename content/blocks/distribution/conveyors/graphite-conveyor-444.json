@@ -1,0 +1,16 @@
+{
+    "type": "Conveyor",
+    "name": "Graphite Conveyor",
+  "description": "Little Faster then a Conveyor",
+    "category": "distribution",
+    "health": 75,
+    "speed": 0.0475,
+    "displayedSpeed": 6.5,
+    "conductivePower": true,
+    "connectedPower": true,
+    "requirements": [
+        {"item": "graphite", "amount": 1},
+        {"item": "lopper", "amount": 1}
+    ],
+    "research": "conveyor"
+}

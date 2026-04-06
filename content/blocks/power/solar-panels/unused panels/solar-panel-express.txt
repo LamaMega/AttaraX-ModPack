@@ -1,0 +1,16 @@
+{
+	"type": "SolarGenerator",
+	"name": "solar-panel-express",
+	"description": "Power from the sun, but more.",
+	"size": 3,
+	"health": 900,
+	"buildCostMultiplier": .5,
+	"powerProduction": 2.5002f,
+	"requirements": [
+		{ "item": "silicon", "amount": 100 },
+		{ "item": "thorium", "amount": 80 },
+		{ "item": "phase-fabric", "amount": 50 },
+	],
+	"category": "power",
+	"research": "solar-panel-large"
+}

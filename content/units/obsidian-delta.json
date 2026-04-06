@@ -1,0 +1,116 @@
+{
+    "controller": "DefenderAI",
+
+    "type": "flying",
+    "name": "[#65088A]Obsidian Delta",
+    "description": "Defends the obsidian core from enemies. Builds structures. modified Delta unit code/sprites from z0mbiesrock's Larger-Cores mod",
+    "speed": 3.3,
+    "accel": 0.125,
+    "drag": 0.0625,
+    "mineSpeed": 9,
+    "mineTier": 4,
+    "health": 1200,
+    "alwaysUnlocked": true,
+    "itemCapacity": 120,
+    "rotateSpeed": 25,
+    "hitSize": 13,
+    "armor": 3,
+    "buildSpeed": 4.5,
+    "engineOffset": 8.5,
+    "flying": true,
+    "weapons": [
+        {
+            "name": "flakgun-core",
+            "reload": 38,
+            "x": 5,
+            "y": 2,
+            "top": false,
+            "rotate": false,
+            "shoot": {
+                "shots": 4,
+                "shotDelay": 3
+            },
+            "inaccuracy": 5,
+            "velocityRnd": 0.25,
+            "shootY": 3,
+            "ejectEffect": "casing2",
+            "shootSound": "shootBig",
+            "bullet": {
+                "type": "BasicBulletType",
+                "damage": 22,
+                "speed": 5.5,
+                "width": 8,
+                "height": 14,
+                "shootEffect": "shootSmall",
+                "smokeEffect": "shootSmallSmoke",
+                "lifetime": 40,
+                "sprite": "bullet"
+            }
+        },
+        {
+            "name": "small-weapon-core",
+            "reload": 20,
+            "x": 3,
+            "y": -3,
+            "top": false,
+            "rotate": true,
+            "rotateSpeed": 18,
+            "shoot": {
+                "shots": 3,
+                "shotDelay": 3
+            },
+            "inaccuracy": 1,
+            "ejectEffect": "casing1",
+            "bullet": {
+                "type": "BasicBulletType",
+                "damage": 18,
+                "speed": 8,
+                "width": 4,
+                "height": 9,
+                "lifetime": 20,
+                "sprite": "bullet"
+            }
+        },
+        {
+        "type": "RepairBeamWeapon",
+      "mirror": true,
+      "alternate": false,
+      "rotateSpeed": 8,
+      "y": 0,
+      "x": 0,
+      "reload": 1,
+      "rotate": true,
+      "shootSound": "laser",
+      "controllable": false,
+      "autoTarget": true,
+      "beamWidth": 0.6,
+      "pulseRadius": 6,
+      "pulseStroke": 2,
+      "targetBuildings": true,
+      "repairSpeed": 0.1,
+        "bullet": {
+            "shootEffect": "hitEmpSpark",
+            "speed": 5,
+            "maxRange": 100
+        }
+        }
+    ],
+    "immunities": [
+        "burning",
+        "neutron-overcharge",
+        "melting",
+        "freezing"
+      ],
+    "abilities": [
+        {
+          "type": "mindustry.entities.abilities.StatusFieldAbility",
+          "effect": "wind-overcharge",
+          "parentizeEffects": true,
+          "effectY": 23,
+          "activeEffect": "none",
+          "range": 200,
+          "reload": 600,
+          "duration": 0
+        }
+    ]
+}

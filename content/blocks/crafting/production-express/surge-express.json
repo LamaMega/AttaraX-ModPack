@@ -1,0 +1,30 @@
+{
+    "type": "GenericCrafter",
+    "name": "surge-express",
+    "description": "more",
+    "health": 2000,
+    "size": 3,
+    "hasPower": true,
+    "hasItems": true,
+    "itemCapacity": 100,
+    "craftTime": 20,
+	"buildCostMultiplier":0.5,
+    "updateEffect": "smeltsmoke",
+    "consumes": { "power": 8.0, "items": { "items": [
+        { "item": "copper", "amount": 5 },
+        { "item": "lead", "amount": 5 },
+        { "item": "silicon", "amount": 5 },
+        { "item": "titanium", "amount": 5 }
+		] } },
+	"outputItem": {"item": "surge-alloy", "amount": 2},
+    "requirements": [
+        { "item": "thorium", "amount": 100 },
+        { "item": "phase-fabric", "amount": 125 },
+        { "item": "silicon", "amount": 125 },
+        {"item":"titanium", "amount": 100}        
+		],
+    "category": "crafting",
+    "research": "surge-smelter",
+
+    "ambientSoundVolume": 0
+}

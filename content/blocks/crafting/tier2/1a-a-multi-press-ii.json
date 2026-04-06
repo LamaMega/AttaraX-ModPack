@@ -1,0 +1,37 @@
+{	
+	"name":"Multi-Press 2",
+    "type": "GenericCrafter",
+	"size": 4,
+	"health": 1100,
+	"hasPower": true,
+	"hasItems": true,
+	"itemCapacity": 30,
+        "liquidCapacity": 30,
+	"craftTime": 60,
+	"craftEffect": "pulverize",
+	"updateEffect": "pulverizeSmall",
+	"consumes": {
+		"power": 6,
+		"items": {
+			"items": [
+               "coal/18"             
+ 			]
+		},
+                   "liquid": {
+			"liquid": "water",
+			"amount": 0.5
+		}
+	},
+	"requirements": [
+        "lopper/250",
+        "graphite/150",
+        "titanium/350",
+        "silicon/100",
+        "plastanium/175"
+	],
+	"category": "crafting",
+	"research": "multi-press",
+	"outputItem": "graphite/15",
+
+	"ambientSoundVolume": 0
+}

@@ -1,0 +1,8 @@
+{
+    "name":"Core:Shard", 
+    "unitType": "gamma",
+    "buildVisibility": "shown",
+    "requirements": [
+       "copper/0"
+    ]
+}

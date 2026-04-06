@@ -1,0 +1,160 @@
+{
+  "type": "laserTurret",
+  "name": "Sector Cracker",
+  "description": "\n[red]Note: THIS IS FROM A MOD CALLED <MOARDUSTRY>.",
+  "size": 10,
+  "health": 4500,
+  "requirements": [
+    {"item": "lopper", "amount": 25000},
+    {"item": "silicon", "amount": 30000},
+     {"item": "metaglass", "amount": 15000},
+    {"item": "titanium", "amount": 17500},
+    {"item": "thorium", "amount": 22500},
+    {"item": "plastanium", "amount": 25000},
+    {"item": "phase-fabric", "amount": 15000},
+    {"item": "compressed-surge-alloy", "amount": 15000},
+    {"item": "obsidian", "amount": 10000}
+    
+  ],
+  "shootY": 0,
+  "shootCone": 1,
+  "recoil": 0,
+  "range": 800,
+  "reload": 150,
+  "shootDuration": 100,
+  "rotateSpeed": 0.05,
+  "shootSound": "explosionBig",
+  "loopSound": "pulse",
+  "shoot":{"firstShotDelay": 100},
+  "shootEffect": "bigShockwave",
+  "chargeSound": "hum",
+  "shootType": {
+    "type": "ContinuousLaserBulletType",
+    "length": 825,
+    "drawSize": 0,
+    "width": 6,
+    "damage": 10000,
+    "incendChance": 0,
+    "chargeEffect": {
+      "type": "MultiEffect",
+      "effects": [
+        {
+          "type": "waveEffect",
+          "lifetime": 150,
+          "sizeFrom": 600,
+          "sizeTo": 0,
+          "sides": 6,
+          "followParent": true,
+          "colorFrom": "f3e979",
+          "colorTo": "f58859",
+          "strokeFrom": 1,
+          "strokeTo": 4
+        },
+        {
+          "type": "waveEffect",
+          "lifetime": 150, 
+          "sizeFrom": 600,
+          "sizeTo": 0,
+          "baseRotation": 30,
+          "followParent": true,
+          "sides": 6,
+          "colorFrom": "f3e979",
+          "colorTo": "f58859",
+          "strokeFrom": 1,
+          "strokeTo": 4
+        },
+        {
+          "type": "waveEffect",
+          "lifetime": 150, 
+          "sizeFrom": 600,
+          "sizeTo": 0,
+          "baseRotation": 15,
+          "followParent": true,
+          "sides": 6,
+          "colorFrom": "f3e979",
+          "colorTo": "f58859",
+          "strokeFrom": 1,
+          "strokeTo": 4
+        },
+        {
+          "type": "waveEffect",
+          "lifetime": 150, 
+          "sizeFrom": 600,
+          "sizeTo": 0,
+          "baseRotation": 45,
+          "followParent": true,
+          "sides": 6,
+          "colorFrom": "f3e979",
+          "colorTo": "f58859",
+          "strokeFrom": 1,
+          "strokeTo": 4
+        },
+        {
+          "type": "multiEffect",
+          "effects":
+          [
+            {
+              "type": "particleEffect",
+              "startDelay": 150,
+              "lifetime": 150,
+              "length": -600,
+              "baseLength": 600,
+              "particles": 200,
+              "followParent": true,
+              "strokeFrom": 4,
+              "strokeTo": 1,
+              "line": true,
+              "lenFrom": 20,
+              "lenTo": 5,
+              "colorFrom": "f3e97910",
+              "colorTo": "f58859"
+            },
+            {
+              "type": "particleEffect",
+              "startDelay": 150,
+              "lifetime": 150,
+              "length": 0,
+              "particles": 1,
+              "followParent": true,
+              "sizeFrom": 0,
+              "sizeTo": 25,
+              "colorFrom": "f3e979",
+              "colorTo": "ffffff"
+            }
+          ]
+        }
+      ]
+    },
+    "hitEffect": {
+      "type": "MultiEffect",
+      "effects": [
+        {
+          "type": "waveEffect",
+          "sizeFrom": 0,
+          "sizeTo": 80,
+          "lifetime": 15,
+          "sides": 4,
+          "colorFrom": "ffffff",
+          "colorTo": "ffffff",
+          "strokeFrom": 3,
+          "strokeTo": 0
+        },
+        {
+          "type": "waveEffect",
+          "sizeFrom": 80,
+          "sizeTo": 0,
+          "lifetime": 15,
+          "rotation": 45,
+          "sides": 4,
+          "colorFrom": "ffffff",
+          "colorTo": "ffffff",
+          "strokeFrom": 3,
+          "strokeTo": 0
+        }
+      ]
+    }
+  },
+  "consumes": {"power": 1000,"coolant":{}},
+  "category": "turret",
+  "research": "blood-seeker"
+}

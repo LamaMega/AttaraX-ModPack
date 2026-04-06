@@ -1,0 +1,7 @@
+{
+	"name": "Transparent Router",
+	"health": 25,
+	"requirements": ["copper/3", "metaglass/1"],
+	"research": "distributor",
+	"category": "distribution"
+}

@@ -1,0 +1,52 @@
+{
+    "name": "Hail 2",
+    "type": "ItemTurret",
+    "health": 360,
+    "size": 1,
+    "reload": 60,
+    "range": 250,
+    "rotateSpeed": 20,
+    "recoil": 2,
+    "shootCone": 5,
+    "targetGround": true,
+
+    "ammoTypes": {
+        "graphite":
+        {
+            "type": "ArtilleryBulletType",
+            "length": 240,
+            "damage": 47,
+            "ammoMultiplier": 1,
+            "width": 11,
+            "reloadMultiplier": 1,
+            "lifetime": 100,
+            "speed": 2.5,
+            "splashDamage": 40,
+            "splashDamageRadius": 8
+        },
+        "silicon":
+        {
+            "type": "ArtilleryBulletType",
+            "length": 240,
+            "damage": 53,
+            "ammoMultiplier": 1,
+            "width": 11,
+            "toColor": "ec6fff",
+            "reloadMultiplier": 1.0,
+            "homingPower":0.4,
+            "lifetime": 110,
+            "speed": 2.5,
+            "splashDamage": 46,
+            "splashDamageRadius": 10
+        }
+    },
+
+    "category": "turret",
+    "research": "hail",
+    "requirements": [    
+        "copper/65",
+        "lead/35",
+        "graphite/30",
+        "lopper/55"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "type": "Conveyor",
+    "name": "Lead Conveyor",
+  "description": "Faster then a Graphite Conveyor",
+    "category": "distribution",
+    "health": 65,
+    "speed": 0.065,
+    "displayedSpeed": 9.5,
+    "conductivePower": true,
+    "connectedPower": true,
+    "requirements": [
+        {"item": "copper", "amount": 1},
+        {"item": "lead", "amount": 1},
+        {"item": "graphite", "amount": 1},
+        {"item": "lopper", "amount": 1}
+
+    ],
+    "research": "graphite-conveyor-444"
+  }

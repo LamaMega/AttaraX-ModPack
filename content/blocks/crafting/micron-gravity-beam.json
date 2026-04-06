@@ -1,0 +1,52 @@
+{	
+	"name": "micron gravity beam",
+    "type": "GenericCrafter",
+    "description": "Over time scientists discovered something, something weird, something.. dark. they put compressing materials to the side and started working on a gravity tractor. they found budzirium, with properties so unstable it couldn't be real. (very very very very rare, so dont expect to get a lot of it. (Produces 1 per 1 Minute))",
+    "health": 500,
+	"size": 9,
+	"hasItems": true,
+	"itemCapacity": 3,	
+	"craftTime": 3600,
+	"buildCostMultiplier": 2,
+	"consumes": {
+		"power": 51
+		},
+	"requirements": [
+		"surge-alloy/250",
+		"alexanderium/175",
+		"obsidian/300",
+		"graphite/200",
+		"silicon/400",
+		"titanium/200",
+		"thorium/200",
+		"plastanium/150",
+		"lopper/275",
+		"phase-fabric/150"
+	],
+	"category": "crafting",
+	"research": "obsidian-cooler",
+	"outputItem": "budzirium/1",
+
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+		  {
+			"type": "DrawDefault"
+		  },
+		  {
+			"type": "DrawRegion",
+			"suffix": "-spin",
+			"rotateSpeed": 0.06,
+			"spinSprite": true
+		  },
+
+		  {
+			"type": "DrawRegion",
+			"suffix": "-laser",
+			"spinSprite": false
+		  }
+		]
+	  },
+
+	  "ambientSoundVolume": 0
+}

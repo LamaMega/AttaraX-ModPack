@@ -1,0 +1,38 @@
+{	
+	"name": "lopper forge",
+    "type": "GenericCrafter",
+    "description": "Forges copper & lead, Block imported from mod named 'Compress This!'",
+    "health": 300,
+	"size": 2,
+	"hasItems": true,
+	"itemCapacity": 40,
+	"craftTime": 24,
+	"craftEffect": "smeltsmoke",
+	"updateEffect": "none",
+	"consumes": {
+		"items": {
+			"items": [
+               "copper/5",
+			   "lead/5"
+			]
+		},
+		"power": {
+			"consumption": 1.0
+		}
+	},
+	"requirements": [
+        "copper/100",
+        "lead/50"
+	],
+	"category": "crafting",
+	"research": {
+		"parent": "graphite-press",
+		"requirements": [
+			"copper/600",
+			"lead/475"
+		]
+	},
+	"outputItem": "lopper/4",
+
+	"ambientSoundVolume": 0
+}
