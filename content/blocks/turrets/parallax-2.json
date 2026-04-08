@@ -1,0 +1,30 @@
+{
+    "name": "Parallax 2",
+    "description": "Parallax Tier 2.",
+    "type": "TractorBeamTurret",
+    "category": "turret",
+    "hasPower": true,
+
+    "consumes": {
+      "power": 10.0
+    },
+
+    "size": 2,
+    "force": 19,
+    "scaledForce": 13,
+    "health": 1350,
+    "retargetTime": 5.0,
+    "range": 450.0,
+    "damage":1.5,
+    "rotateSpeed": 14.0,
+    "targetGround": false,
+    "requirements": [    
+        "copper/115",
+        "lead/115",
+        "lopper/200",
+        "silicon/100",
+        "graphite/125",
+        "titanium/220"
+      ],
+    "research": "parallax"
+}
