@@ -141,3 +141,7 @@
     +Added Parallax 2
     -Lopper Forge now outputs 4 Lopper instead of 5 and it now requires Power
 }
+"version":1.1.4
+{
+    ~Parallax Power Requirement increased, damage increased, size increased, Sprited Added (Imported from Mod Exogenesis), also build requirments increased
+}

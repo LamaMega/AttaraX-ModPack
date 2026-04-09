@@ -6,25 +6,26 @@
     "hasPower": true,
 
     "consumes": {
-      "power": 10.0
+      "power": 12.2
     },
 
-    "size": 2,
-    "force": 19,
-    "scaledForce": 13,
+    "size": 3,
+    "force": 21,
+    "scaledForce": 16,
     "health": 1350,
     "retargetTime": 5.0,
     "range": 450.0,
-    "damage":1.5,
+    "damage":1.7,
     "rotateSpeed": 14.0,
     "targetGround": false,
     "requirements": [    
         "copper/115",
         "lead/115",
-        "lopper/200",
-        "silicon/100",
-        "graphite/125",
-        "titanium/220"
+        "lopper/250",
+        "silicon/375",
+        "graphite/225",
+        "titanium/350",
+        "thorium/300"
       ],
     "research": "parallax"
 }
