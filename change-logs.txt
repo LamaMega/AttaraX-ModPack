@@ -151,5 +151,7 @@
     ~Diesel Generator power production Decreased from 792 to 600
     ~Combustion Generator power produciton Decreased from 192 to 90
     ~Vanilla Solar Panel returned to 
-    ~Bloodseeker damage Decreased
+    ~Bloodseeker damage 
+    +Dismantler changed to require scrap but now produces every vanilla serpulo item
+    +Added Solar Panel 2
 }

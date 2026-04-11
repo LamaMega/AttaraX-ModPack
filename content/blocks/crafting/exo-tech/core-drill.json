@@ -11,6 +11,11 @@
   "hasPower": true,
   "consumes": {
     "power": 600,
+    "items": {
+      "items": [
+        "scrap/1"
+      ]
+    },
     "liquid": {
       "liquid": "slag",
       "amount": 3.0
@@ -50,7 +55,15 @@
   "research": "0a1-core-living",
   "results": [
     {
-      "item":"lopper",
+      "item":"copper",
+      "amount":1
+    },
+    {
+      "item":"lead",
+      "amount":1
+    },
+    {
+      "item":"graphite",
       "amount":1
     },
     {
@@ -59,30 +72,26 @@
     },
     {
       "item":"silicon",
-      "amount": 2
+      "amount":1
     },
     {
-      "item": "titanium",
-      "amount": 1
+      "item":"titanium",
+      "amount":1
     },
     {
       "item":"plastanium",
-      "amount":2
+      "amount":1
     },
     {
-      "item": "thorium",
-      "amount": 1
+      "item":"thorium",
+      "amount":1
     },
     {
       "item":"phase-fabric",
-      "amount":2
+      "amount":1
     },
     {
-      "item": "surge-alloy",
-      "amount": 2
-    },
-    {
-      "item":"pyratite",
+      "item":"surge-alloy",
       "amount":1
     }
   ],

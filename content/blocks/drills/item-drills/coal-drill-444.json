@@ -4,9 +4,9 @@
   "health": 100,
   "size": 1,
    "requirements": [
-    "lopper/150",
-    "silicon/150",
-    "titanium/150"
+    "plastanium/150",
+    "phase-fabric/150",
+    "surge-alloy/150"
    ],
   "hasItems": true,
   "research": "0a-core-obsidian",

@@ -1,0 +1,16 @@
+{
+	"type": "SolarGenerator",
+	"name": "Solar Panel 2",
+	"description": "Power from the sun, but more.",
+	"size": 1,
+	"health": 100,
+	"buildCostMultiplier": 1,
+	"powerProduction": 0.5,
+	"requirements": [
+		{ "item": "silicon", "amount": 25 },
+		{ "item": "phase-fabric", "amount": 25 },
+		{ "item": "surge-alloy", "amount": 25 }
+	],
+	"category": "power",
+	"research": "solar-panel"
+}

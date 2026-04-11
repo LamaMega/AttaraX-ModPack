@@ -2,7 +2,7 @@
     "type": "Unloader",
     "name": "Thorium Unloader",
 	"description": "Stronger and faster than the standard Unloader.",
-    "category": "effect",
+    "category": "distribution",
     "health": 350,
     "buildCostMultiplier": 3,
     "speed": 0.01,
