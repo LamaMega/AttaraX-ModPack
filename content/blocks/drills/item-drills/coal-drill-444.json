@@ -10,7 +10,7 @@
    ],
   "hasItems": true,
   "research": "0a-core-obsidian",
-  "craftTime": 15,
+  "craftTime": 30,
   "category": "production",
   "itemCapacity": 10,
   "outputItem": { "item": "coal", "amount": 1},

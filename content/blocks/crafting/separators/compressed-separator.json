@@ -6,14 +6,14 @@
     "hasPower": true,
     "hasLiquid": true,
     "hasItems": true,
-    "itemCapacity": 210000000,
+    "itemCapacity": 5000,
     "liquidCapacity": 10,
     "craftTime": 13 ,
     "consumes": {
 		"power": 16,
         "liquid": {
 			"liquid": "slag",
-			"amount": 0.07
+			"amount": 0.2
 		}
 	},
     "results": [

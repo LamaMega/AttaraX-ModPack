@@ -144,4 +144,12 @@
 "version":1.1.4
 {
     ~Parallax Power Requirement increased, damage increased, size increased, Sprited Added (Imported from Mod Exogenesis), also build requirments increased
+    -Removed Plastanium Drill
+    ~Coal Drill speed Reduced 4 coal/sec > 2 coal/sec
+    ~Separator 2 item Capcity Decreased from 2.1B to 5000, slag Requirement increased
+    +Diesel Refinery produciton increased 30 units/sec to 60/sec
+    ~Diesel Generator power production Decreased from 792 to 600
+    ~Combustion Generator power produciton Decreased from 192 to 90
+    ~Vanilla Solar Panel returned to 
+    ~Bloodseeker damage Decreased
 }

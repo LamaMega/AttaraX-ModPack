@@ -8,10 +8,10 @@
     "hasLiquids": true,
     "itemCapacity": 30,
     "liquidCapacity": 60,
-    "craftTime": 60,
+    "craftTime": 45,
     "consumes": {
 		"power": 1,
-        "liquid": { "liquid": "oil", "amount": 0.5}
+        "liquid": { "liquid": "oil", "amount": 1}
 	},
 
 	"outputLiquid": "diesel/0.64",

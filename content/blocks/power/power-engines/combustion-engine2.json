@@ -9,7 +9,7 @@
     "hasLiquids": "true",
     "itemCapacity": 250,
     "liquidCapacity": 10,
-    "powerProduction": 13.2,
+    "powerProduction": 10.0,
     "itemDuration": 175,
     "outputsPower": "true",
       "consumes": {

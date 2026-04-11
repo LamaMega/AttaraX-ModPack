@@ -7,7 +7,7 @@
     "hasPower": "true",
     "hasItems": "true",
     "itemCapacity": 10,
-    "powerProduction": 2.8,
+    "powerProduction": 1.5,
     "itemDuration": 225,
     "outputsPower": "true",
       "consumes": {
