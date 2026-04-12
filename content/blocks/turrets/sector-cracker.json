@@ -20,8 +20,8 @@
   "targetHealing": false,
 
 
-  "reloadTime": 0.0,
-  "cooldownTime": 0.0,
+  "reloadTime": 600.0,
+  "cooldownTime": 600.0,
   "inaccuracy": 0.0,
   "shake": 0.0,
   "shootDuration": 600,
@@ -33,7 +33,7 @@
 
   "shootType": {
     "type": "ContinuousLaserBulletType",
-    "damage": 333,
+    "damage": 1000,
     "length": 1100,
     "drawSize": 1100,
     "hitEffect": "hitMeltdown",
@@ -41,9 +41,9 @@
     "status": "melting",
     "timescaleDamage": true,
     "incendChance": 0.4,
-    "incendSpread": 5,
-    "incendAmount": 1,
-    "ammoMultiplier": 1
+    "incendSpread": 30,
+    "incendAmount": 5,
+    "ammoMultiplier": 2
   },
 
   "description": "\n[red]Note: THIS IS FROM A MOD CALLED <MOARDUSTRY>.",
