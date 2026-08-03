@@ -1,0 +1,4 @@
+{
+    "name":"Core:Nucleus", 
+    "unitType": "mega"
+}
