@@ -4,13 +4,17 @@
   "health": 100,
   "size": 1,
    "requirements": [
-    "plastanium/150",
-    "phase-fabric/150",
-    "surge-alloy/150"
+    "copper/100",
+    "lead/100",
+    "graphite/100",
+    "lopper/100"
    ],
+   "consumes": {
+    "power": 1.5
+   },
   "hasItems": true,
   "research": "0a-core-obsidian",
-  "craftTime": 30,
+  "craftTime": 60,
   "category": "production",
   "itemCapacity": 10,
   "outputItem": { "item": "coal", "amount": 1},
