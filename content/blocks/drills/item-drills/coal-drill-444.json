@@ -10,7 +10,7 @@
     "lopper/100"
    ],
    "consumes": {
-    "power": 1.5
+    "power": 1.4
    },
   "hasItems": true,
   "research": "0a-core-obsidian",

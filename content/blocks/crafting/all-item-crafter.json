@@ -1,0 +1,74 @@
+{	
+	"name": "All Item Crafter",
+    "type": "GenericCrafter",
+    "description": "Dont use this if u want to play mindustry.",
+    "health": 100,
+	"size": 5,
+	"hasItems": true,
+	"itemCapacity": 100,	
+	"craftTime": 60,
+	"craftEffect": "smeltsmoke",
+	"updateEffect": "none",
+	"buildCostMultiplier": 0.2,
+	"consumes": {
+		"power": 50,
+		"liquids": {
+			"liquids": [
+				"cryofluid/1"
+			]
+		},
+
+		"items": {
+			"items": [
+				"copper/10",
+                "lead/10",
+                "metaglass/10",
+                "graphite/10",
+                "titanium/10",
+                "plastanium/10",
+                "phase-fabric/10",
+                "surge-alloy/10",
+                "thorium/10",
+                "silicon/10",
+                "lopper/10",
+                "obsidian/10",
+                "compressed-surge-alloy/10",
+                "alexanderium/10"
+			]
+		}
+	},
+	"requirements": [
+        "surge-alloy/150",
+		"plastanium/135",
+		"phase-fabric/85",
+		"thorium/100",
+		"thorium/75",
+		"titanium/75",
+		"titanium/70",
+		"lopper/330",
+		"graphite/135",
+		"obsidian/250"
+
+	],
+	"category": "crafting",
+	"research": "alexanderium-bio-lab",
+	"outputItems": [
+        
+            "copper/20",
+            "lead/20",
+            "metaglass/20",
+            "graphite/20",
+            "titanium/20",
+            "plastanium/20",
+            "phase-fabric/20",
+            "surge-alloy/20",
+            "thorium/20",
+            "silicon/20",
+            "lopper/20",
+            "obsidian/20",
+            "compressed-surge-alloy/20",
+            "alexanderium/20"
+    ],
+
+	"ambientSoundVolume": 0
+}

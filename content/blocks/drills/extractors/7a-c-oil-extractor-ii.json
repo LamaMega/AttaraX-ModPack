@@ -2,7 +2,7 @@
   "name":"Oil-Extractor 2",
     "type": "AttributeCrafter",
     "health": 590,
-    "outputLiquid": "oil/0.6",
+    "outputLiquid": "oil/0.65",
     "baseEfficiency": 0.25,
     "drawer": {
       "type": "DrawMulti",

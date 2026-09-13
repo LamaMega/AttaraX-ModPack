@@ -10,7 +10,8 @@
         "graphite/500",
         "silicon/100",
         "titanium/80",
-        "thorium/250"
+        "thorium/250",
+        "plastanium/100"
       ],
     "research":"battery-large",
     "consumes": { "powerBuffered": 300000}
