@@ -5,31 +5,25 @@
     "health": 100,
 	"size": 5,
 	"hasItems": true,
-	"itemCapacity": 100,	
+	"itemCapacity": 1000,	
 	"craftTime": 15,
 	"craftEffect": "smeltsmoke",
 	"updateEffect": "none",
 	"buildCostMultiplier": 0.2,
 	"consumes": {
 		"power": 50,
-		"liquids": {
-			"liquids": [
-				"cryofluid/1"
-			]
-		},
-
 		"items": {
 			"items": [
-                "titanium/10",
-                "plastanium/10",
-                "phase-fabric/10",
-                "surge-alloy/10",
-                "thorium/10",
-                "silicon/10",
-                "lopper/10",
-                "obsidian/10",
-                "compressed-surge-alloy/10",
-                "alexanderium/10"
+                "titanium/5",
+                "plastanium/5",
+                "phase-fabric/5",
+                "surge-alloy/5",
+                "thorium/5",
+                "silicon/5",
+                "lopper/5",
+                "obsidian/5",
+                "compressed-surge-alloy/5",
+                "alexanderium/5"
 			]
 		}
 	},
@@ -38,9 +32,7 @@
 		"plastanium/135",
 		"phase-fabric/85",
 		"thorium/100",
-		"thorium/75",
 		"titanium/75",
-		"titanium/70",
 		"lopper/330",
 		"graphite/135",
 		"obsidian/250"
@@ -49,16 +41,16 @@
 	"category": "crafting",
 	"research": "alexanderium-bio-lab",
 	"outputItems": [
-            "titanium/20",
-            "plastanium/20",
-            "phase-fabric/20",
-            "surge-alloy/20",
-            "thorium/20",
-            "silicon/20",
-            "lopper/20",
-            "obsidian/20",
-            "compressed-surge-alloy/20",
-            "alexanderium/20"
+            "titanium/15",
+            "plastanium/15",
+            "phase-fabric/15",
+            "surge-alloy/15",
+            "thorium/15",
+            "silicon/15",
+            "lopper/15",
+            "obsidian/15",
+            "compressed-surge-alloy/15",
+            "alexanderium/15"
     ],
 
 	"ambientSoundVolume": 0
