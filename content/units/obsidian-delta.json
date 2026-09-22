@@ -15,7 +15,7 @@
     "rotateSpeed": 25,
     "hitSize": 13,
     "armor": 3,
-    "buildSpeed": 4.5,
+    "buildSpeed": 6.5,
     "engineOffset": 8.5,
     "flying": true,
     "weapons": [

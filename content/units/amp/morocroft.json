@@ -8,7 +8,7 @@
     "accel": 0.125,
     "drag": 0.0625,
     "health": 375,
-    "buildSpeed": 2.6,
+    "buildSpeed": 3.0,
     "rotateSpeed": 25,
     "hitSize": 13,
     "armor": 3,

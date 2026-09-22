@@ -141,9 +141,9 @@
   "abilities": [
     {
       "type": "mindustry.entities.abilities.RepairFieldAbility",
-      "range": 100,
-      "amount": 600,
-      "reload": 398
+      "range": 120,
+      "amount": 550,
+      "reload": 460
     },
     {
       "type": "mindustry.entities.abilities.StatusFieldAbility",
@@ -152,8 +152,8 @@
       "effectY": 23,
       "activeEffect": "none",
       "range": 200,
-      "reload": 60,
-      "duration": 30
+      "reload": 30,
+      "duration": 90
     }
   ]
 }
