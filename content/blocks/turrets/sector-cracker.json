@@ -10,10 +10,10 @@
   "conductivePower": true,
   "hasPower": true,
  "consumes": {
-    "power": 1000
+    "power": 2000
   },
 
-  "range": 1100,
+  "range": 5000,
   "rotateSpeed": 0.05,
   "targetAir": true,
   "targetGround": true,
@@ -33,9 +33,9 @@
 
   "shootType": {
     "type": "ContinuousLaserBulletType",
-    "damage": 1000,
-    "length": 1100,
-    "drawSize": 1100,
+    "damage": 100,
+    "length": 5000,
+    "drawSize": 5000,
     "hitEffect": "hitMeltdown",
     "hitColor": "meltdownHit",
     "status": "melting",
