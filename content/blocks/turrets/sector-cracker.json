@@ -14,7 +14,7 @@
   },
 
   "range": 5000,
-  "rotateSpeed": 0.05,
+  "rotateSpeed": 1.0,
   "targetAir": true,
   "targetGround": true,
   "targetHealing": false,
@@ -33,13 +33,13 @@
 
   "shootType": {
     "type": "ContinuousLaserBulletType",
-    "damage": 100,
+    "damage": 30,
     "length": 5000,
     "drawSize": 5000,
     "hitEffect": "hitMeltdown",
     "hitColor": "meltdownHit",
-    "status": "melting",
-    "timescaleDamage": true,
+    //"status": "melting",
+    //"timescaleDamage": true,
     "incendChance": 0.4,
     "incendSpread": 30,
     "incendAmount": 5,
