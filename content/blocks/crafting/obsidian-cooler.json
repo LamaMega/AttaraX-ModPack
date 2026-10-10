@@ -7,21 +7,21 @@
     "hasItems": true,
     "hasLiquids": true,
     "itemCapacity": 100,
-    "craftTime": 120,
+    "craftTime": 45,
     "buildCostMultiplier": 0.2,
     "consumes": {
-        "power": 8,
+        "power": 16,
         "liquids": [
-            "slag/0.5",
-            "cryofluid/0.5"
+            "slag/1.0",
+            "cryofluid/1.0"
         ]
 	},
     "requirements": [
-        "thorium/200",
-        "titanium/150",
+        "thorium/220",
+        "titanium/250",
         "lopper/150",
-        "graphite/95",
-        "silicon/100"
+        "graphite/195",
+        "silicon/270"
     ],
     "category": "crafting",
     "research": "lopper-forge",
