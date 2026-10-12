@@ -14,7 +14,6 @@
 	"requirements": [
 		"surge-alloy/250",
 		"alexanderium/175",
-		"obsidian/300",
 		"graphite/200",
 		"silicon/400",
 		"titanium/200",
@@ -24,7 +23,7 @@
 		"phase-fabric/150"
 	],
 	"category": "crafting",
-	"research": "obsidian-cooler",
+	"research": "alexanderium-bio-lab",
 	"outputItem": "budzirium/1",
 
 	"drawer": {

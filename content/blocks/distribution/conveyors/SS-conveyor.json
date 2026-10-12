@@ -13,8 +13,7 @@
       "thorium/10",
       "plastanium/10",
       "phase-fabric/10",
-      "compressed-surge-alloy/3",
-      "obsidian/3"
+      "compressed-surge-alloy/10"
   ],
   "research": {
     "parent": "plastanium-conveyor",
@@ -24,8 +23,7 @@
       "thorium/1000",
       "plastanium/1000",
       "phase-fabric/1000",
-      "compressed-surge-alloy/1000",
-      "obsidian/1000"
+      "compressed-surge-alloy/1000"
     ]
 }
 }

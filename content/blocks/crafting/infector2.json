@@ -25,7 +25,6 @@
 	"requirements": [
         "titanium/150",
 		"thorium/85",
-		"obsidian/150",
 		"graphite/75",
 		"phase-fabric/35"
 	],

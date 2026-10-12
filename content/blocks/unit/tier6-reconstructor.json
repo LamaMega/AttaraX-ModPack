@@ -14,7 +14,6 @@
           "compressed-surge-alloy/550",
           "phase-fabric/750",
           "metaglass/1000",
-          "obsidian/750",
           "plastanium/900",
           "titanium/1000"
         ]
@@ -28,8 +27,7 @@
       "lead/1600",
       "thorium/1500",
       "plastanium/600",
-      "phase-fabric/580",
-      "obsidian/350"
+      "phase-fabric/580"
     ],
     "upgrades": [
       [

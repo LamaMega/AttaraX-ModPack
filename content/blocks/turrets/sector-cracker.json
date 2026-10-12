@@ -57,8 +57,7 @@
     {"item": "thorium", "amount": 22500},
     {"item": "plastanium", "amount": 25000},
     {"item": "phase-fabric", "amount": 15000},
-    {"item": "compressed-surge-alloy", "amount": 15000},
-    {"item": "obsidian", "amount": 10000}
+    {"item": "compressed-surge-alloy", "amount": 15000}
   ],
 
   "researchRequirements": [
@@ -69,7 +68,6 @@
     {"item": "thorium", "amount": 22500},
     {"item": "plastanium", "amount": 25000},
     {"item": "phase-fabric", "amount": 15000},
-    {"item": "compressed-surge-alloy", "amount": 15000},
-    {"item": "obsidian", "amount": 10000}
+    {"item": "compressed-surge-alloy", "amount": 15000}
   ]
 }

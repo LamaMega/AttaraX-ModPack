@@ -15,10 +15,6 @@
     },
     "requirements": [
         {
-          "item": "obsidian",
-          "amount": 500
-        },
-        {
           "item": "alexanderium",
           "amount": 200
         },

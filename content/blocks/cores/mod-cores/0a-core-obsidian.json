@@ -7,15 +7,14 @@
     "health": 15000,
     "itemCapacity": 22000,
     "requirements": [
-        "copper/2000",
-        "lead/2000",
-        "graphite/3000",
-        "silicon/2500",
-        "titanium/1500",
-        "thorium/1250",
+        "copper/3000",
+        "lead/3000",
+        "graphite/4000",
+        "silicon/4000",
+        "titanium/2000",
+        "thorium/1750",
         "lopper/4000",
-        "surge-alloy/1000",
-        "obsidian/500"
+        "surge-alloy/2000"
     ],
     "category": "effect",
     "unitCapModifier": 75,

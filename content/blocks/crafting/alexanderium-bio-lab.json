@@ -25,8 +25,7 @@
             	"thorium/10",
 				"titanium/10",
 				"lopper/20",
-				"spore-pod/15",
-				"obsidian/10"
+				"spore-pod/15"
 			]
 		}
 	},
@@ -39,12 +38,11 @@
 		"titanium/75",
 		"titanium/70",
 		"lopper/330",
-		"graphite/135",
-		"obsidian/250"
+		"graphite/135"
 
 	],
 	"category": "crafting",
-	"research": "obsidian-cooler",
+	"research": "lopper-forge",
 	"outputItem": "alexanderium/15",
 
 	"ambientSoundVolume": 0

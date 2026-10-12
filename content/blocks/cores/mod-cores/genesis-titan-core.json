@@ -19,8 +19,7 @@
         "thorium/60000",
         "phase-fabric/16000",
         "surge-alloy/25000",
-        "obsidian/15000",
-        "alexanderium/4000"
+        "alexanderium/10000"
   ],
   "category": "effect",
   "research": "0a1-core-living"

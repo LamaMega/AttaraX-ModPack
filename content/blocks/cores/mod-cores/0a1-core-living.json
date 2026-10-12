@@ -10,16 +10,15 @@
     "researchCostMultiplier": 0.1,
     "requirements": [
         "lopper/11000",
-        "metaglass/5000",
+        "metaglass/7000",
         "graphite/8000",
-        "titanium/2000",
-        "plastanium/1000",
+        "titanium/6000",
+        "plastanium/4000",
         "silicon/12000",
         "thorium/6000",
         "phase-fabric/4000",
         "surge-alloy/4000",
-        "obsidian/4000",
-        "alexanderium/1000"
+        "alexanderium/1500"
     ],
     "category": "effect",
     "research": "0a-core-obsidian",

@@ -1,7 +1,7 @@
 {
     "name":"Bridge conveyor",
-    "range":24,
+    "range":12,
     "speed":25,
-    "itemCapacity":100,
+    "itemCapacity":30,
     "ambientSoundVolume": 0
 }

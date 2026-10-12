@@ -24,7 +24,6 @@
 	},
 	"requirements": [
         "titanium/300",
-		"obsidian/150",
 		"graphite/75",
 		"thorium/100"
 	],
