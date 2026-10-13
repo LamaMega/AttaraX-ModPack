@@ -13,7 +13,7 @@
     "power": 2000
   },
 
-  "range": 5000,
+  "range": 1800,
   "rotateSpeed": 1.0,
   "targetAir": true,
   "targetGround": true,
@@ -34,8 +34,8 @@
   "shootType": {
     "type": "ContinuousLaserBulletType",
     "damage": 30,
-    "length": 5000,
-    "drawSize": 5000,
+    "length": 1800,
+    "drawSize": 1800,
     "hitEffect": "hitMeltdown",
     "hitColor": "meltdownHit",
     //"status": "melting",
