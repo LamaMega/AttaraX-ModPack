@@ -6,7 +6,7 @@
     "size": 3,
     "reload": 12,
     "shake": 1,
-    "range": 303,
+    "range": 425,
     "rotateSpeed": 20,
     "recoil": 2,
     "shootCone": 8,
@@ -18,12 +18,12 @@
             "ammoMultiplier": 3,
             "width": 15,
             "reloadMultiplier": 1.3,
-            "lifetime": 24,
+            "lifetime": 36,
             "speed": 15
         },
         "surge-alloy":{
             "type":"ShrapnelBulletType",
-            "length": 300,
+            "length": 425,
             "damage": 65,
             "ammoMultiplier": 2,
             "width": 18,
@@ -33,7 +33,7 @@
         },
         "compressed-surge-alloy":{
             "type":"ShrapnelBulletType",
-            "length": 325,
+            "length": 425,
             "damage": 110,
             "ammoMultiplier": 3,
             "width": 18,
@@ -46,11 +46,11 @@
     "research": "thorium-conveyor",
     "requirements": [    
         "copper/255",
-        "lead/55",
+        "lead/155",
         "lopper/125",
-        "graphite/100",
-        "titanium/35",
-        "silicon/50",
-        "thorium/75"
+        "graphite/175",
+        "titanium/135",
+        "silicon/150",
+        "thorium/175"
     ]
 }

@@ -4,17 +4,17 @@
 "description": "Connecting People",
 "size": 2,
 "requirements": [
-    "lopper/65",
-    "graphite/85",
-    "metaglass/45",
-    "silicon/55",
-    "titanium/75",
-    "plastanium/25",
-    "surge-alloy/10"
+    "lopper/100",
+    "graphite/155",
+    "metaglass/90",
+    "silicon/150",
+    "titanium/125",
+    "plastanium/50",
+    "surge-alloy/25"
 
 ],
-"laserRange": 30,
-"maxNodes": 25,
+"laserRange": 45,
+"maxNodes": 30,
 "category": "power",
 "research": "power-node"
 }
