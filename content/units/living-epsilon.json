@@ -17,6 +17,12 @@
     "engineOffset": 8,
     "flying": true,
     "faceTarget": false,
+
+    "buildRange": 400,
+    "mineRange": 400,
+    "range": 400,
+    "maxRange": 400,
+
     "weapons": [
         {
             "name": "missiles-core",

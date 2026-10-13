@@ -18,6 +18,12 @@
     "buildSpeed": 6.5,
     "engineOffset": 8.5,
     "flying": true,
+
+    "buildRange": 300,
+    "mineRange": 300,
+    "range": 300,
+    "maxRange": 300,
+
     "weapons": [
         {
             "name": "flakgun-core",

@@ -15,7 +15,7 @@
     "health": 1350,
     "retargetTime": 5.0,
     "range": 450.0,
-    "damage":1.7,
+    "damage":2.1,
     "rotateSpeed": 14.0,
     "targetGround": false,
     "requirements": [    

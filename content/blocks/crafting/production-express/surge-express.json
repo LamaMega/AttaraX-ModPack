@@ -1,7 +1,7 @@
 {
     "type": "GenericCrafter",
-    "name": "surge-express",
-    "description": "more",
+    "name": "Surge Smelter 2",
+    "description": "Imported from mod 'Production Express'",
     "health": 2000,
     "size": 3,
     "hasPower": true,
