@@ -37,12 +37,12 @@
 	"hasItems": true,
   "rotateDraw": false,  
   "rotate":true,
-	"itemCapacity": 40,
-        "liquidCapacity":80,
+	"itemCapacity": 200,
+        "liquidCapacity":800,
 	"craftTime": 200,
 	"outputsLiquid": true,
 	"consumes": {
-		"power": 12,
+		"power": 16,
 		"items": {
 			"items": [
                 "titanium/12",
@@ -56,11 +56,11 @@
 		}
 	},
 	"requirements": [
-        "lead/225",
-        "titanium/250",
+        "lead/325",
+        "titanium/350",
         "silicon/250",
-        "plastanium/150",
-        "metaglass/175",
+        "plastanium/200",
+        "metaglass/250",
         "surge-alloy/200"
 	],
 	"category": "crafting",
@@ -71,7 +71,7 @@
     ]
   },
 	"outputLiquids": [
-    "cryofluid/3.3"
+    "cryofluid/4.4"
   ],
 
   "ambientSoundVolume": 0
