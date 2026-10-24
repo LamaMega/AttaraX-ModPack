@@ -2,7 +2,7 @@
     "type": "GenericCrafter",
     "category": "crafting",
 
-    "name":"diesel refinery",
+    "name":"Diesel Refinery",
     "size": 2,
     "hasItems": true,
     "hasLiquids": true,
@@ -10,11 +10,11 @@
     "liquidCapacity": 60,
     "craftTime": 45,
     "consumes": {
-		"power": 1,
-        "liquid": { "liquid": "oil", "amount": 1}
+		"power": 5,
+        "liquid": { "liquid": "oil", "amount": 2}
 	},
 
-	"outputLiquid": "diesel/0.64",
+	"outputLiquid": "diesel/1.28",
     
     "requirements": [
         "lopper/300",

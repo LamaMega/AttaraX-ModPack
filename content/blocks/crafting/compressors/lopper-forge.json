@@ -10,14 +10,14 @@
 	"craftEffect": "smeltsmoke",
 	"updateEffect": "none",
 	"consumes": {
+		"power": {
+			"consumption": 1.0
+		},
 		"items": {
 			"items": [
                "copper/5",
 			   "lead/5"
 			]
-		},
-		"power": {
-			"consumption": 1.0
 		}
 	},
 	"requirements": [

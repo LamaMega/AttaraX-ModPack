@@ -1,5 +1,5 @@
 {	
-	"name": "cryofluid contaminator",
+	"name": "Cryofluid Contaminator",
     "type": "GenericCrafter",
     "description": "infects cryofluid with alexanderium, that cryofluid can then super cool turrets, and it can now fully control the heat, movement, and speed of things",
     "health": 100,

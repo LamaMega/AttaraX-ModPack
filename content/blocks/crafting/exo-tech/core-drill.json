@@ -10,10 +10,10 @@
   "hasLiquids": true,
   "hasPower": true,
   "consumes": {
-    "power": 600,
+    "power": 420,
     "items": {
       "items": [
-        "scrap/2"
+        "scrap/4"
       ]
     },
     "liquid": {
@@ -56,14 +56,6 @@
   "results": [
     {
       "item":"lopper",
-      "amount":1
-    },
-    {
-      "item":"graphite",
-      "amount":1
-    },
-    {
-      "item":"metaglass",
       "amount":1
     },
     {

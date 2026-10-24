@@ -6,7 +6,7 @@
 	"size": 3,
 	"hasItems": true,
 	"itemCapacity": 1000,	
-	"craftTime": 6,
+	"craftTime": 10,
 	"craftEffect": "smeltsmoke",
 	"updateEffect": "none",
 	"consumes": {
@@ -14,18 +14,19 @@
 		"items": {
 			"items": [
                 "lopper/4",
-				"graphite/4",
-				"silicon/2",
+				"silicon/3",
 				"thorium/2",
-				"titanium/2",
-                "surge-alloy/1"
+                "surge-alloy/2"
 			]
 		}
 	},
 	"requirements": [
         "lopper/700",
-        "titanium/175",
-        "silicon/200"
+		"silicon/200",
+        "titanium/550",
+		"thorium/300",
+		"surge-alloy/100"
+
 	],
 	"category": "crafting",
 	"research": {
@@ -37,7 +38,7 @@
 			"silicon/250"
 		]
 	},
-	"outputItem": "compressed-surge-alloy/1",
+	"outputItem": "compressed-surge-alloy/2",
 
 	"ambientSoundVolume": 0
 }

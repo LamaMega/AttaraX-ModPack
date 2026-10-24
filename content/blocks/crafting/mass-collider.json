@@ -6,21 +6,21 @@
     "size": 7,
     "hasItems": true,
     "itemCapacity": 25,
-	"craftTime": 300,
+	  "craftTime": 240,
     "buildCostMultiplier": 2,
     "consumes": {
 		"power": 7,
 		"items": {
 			"items": [
-                "budzirium/1",
+                "budzirium/2",
                 "alexanderium/2"
-			]
+               ]
 		},
         "liquids": {
             "liquids": [
               {
-                "liquid": "infected-cryofluid",
-                "amount": 0.5
+                "liquid": "cryofluid",
+                "amount": 1.5
               }
             ]
           }
