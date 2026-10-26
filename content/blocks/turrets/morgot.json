@@ -14,12 +14,13 @@
         "titanium":{
             "type":"BasicBulletType",
             "length": 1800,
-            "damage": 26,
+            "damage": 25,
             "ammoMultiplier": 3,
             "width": 15,
             "reloadMultiplier": 1.3,
             "lifetime": 36,
-            "speed": 15
+            "speed": 15,
+            "pierceArmor": true
         },
         "surge-alloy":{
             "type":"ShrapnelBulletType",

@@ -1,0 +1,15 @@
+{
+  "name":"Light",
+    "type":"LightBlock",
+    "size":1,
+    "brightness": 1.0,
+    "radius": 2000,
+    "buildVisibility":"lightingOnly",
+    "research":"illuminator",
+    "category": "effect",
+    "requirements": [
+        "copper/1"
+      ],
+
+      "ambientSoundVolume": 0
+}

@@ -15,7 +15,7 @@
       "consumes": {
         "liquid": {
           "liquid": "diesel",
-          "amount": 0.017
+          "amount": 0.015
         }
     },
     "research": "combustion-generator",
