@@ -2,9 +2,9 @@
   "type": "missile",
   "controller": "MissileAI",
   "lowAltitude": false,
-  "speed": 7,
-  "rotateSpeed": 3.6,
-  "lifetime": 185,
+  "speed": 12,
+  "rotateSpeed": 4.6,
+  "lifetime": 1585, //185
   "isEnemy": false,
   "allowedInPayloads": false,
   "playerControllable": false,
