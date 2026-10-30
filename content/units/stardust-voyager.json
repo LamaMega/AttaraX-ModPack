@@ -135,7 +135,7 @@
         "x": 17,
         "y": 1.5,
         "baseRotation": -90,
-        "reload": 25,
+        "reload": 15,
         "top": true,
         "rotate": false,
         "shootY": 6,
@@ -145,7 +145,7 @@
         "shoot": {
           "type": "shootPattern",
           "shots": 2,
-          "shotDelay": 3
+          "shotDelay": 1
         },
         "shootSound": "laser",
         "bullet": {
@@ -223,7 +223,7 @@
         "maxTargets": 1,
         "layer": 101,
         "healPercent": 0.1,
-        "damage": 95,
+        "damage": 155,
         "range": 0,
         "rotateSpeed": 5,
         "sectors": 6,
@@ -233,7 +233,8 @@
         "sectorRad": 0.11,
         "effectRadius": 1,
         "reload": 50,
-        "status": "none"
+        "status": "none",
+        "buildingDamageMultiplier": 0.2
       },
       {
         "type": "EnergyFieldAbility",
@@ -243,7 +244,7 @@
         "maxTargets": 1,
         "layer": 101,
         "healPercent": 0.1,
-        "damage": 95,
+        "damage": 155,
         "range": 0,
         "rotateSpeed": 5,
         "sectors": 6,

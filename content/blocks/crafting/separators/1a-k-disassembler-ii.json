@@ -45,10 +45,9 @@
 		}
 	},
  "results": [
-"sand/16",
-"thorium/8",
-"titanium/12",
-"graphite/14"
+    "thorium/10",
+    "titanium/10",
+    "graphite/10"
   ],
   "category": "crafting",
   "research": "disassembler",

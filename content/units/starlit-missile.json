@@ -14,7 +14,7 @@
   "createScorch": false,
   "flying": true,
   "hidden": true,
-  "health": 200,
+  "health": 650,
   "hitSize": 4,
   "engineColor": "A9D8FFFF",
   "outlineRadius": 0,
@@ -90,7 +90,7 @@
           ]
         },
         "type": "BulletType",
-        "damage": 10,
+        "damage": 65,
         "speed": 0,
         "width": 0,
         "height": 0,

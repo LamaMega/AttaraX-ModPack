@@ -34,13 +34,12 @@
 		"power": 3,
 		"items": {
 			"items": [
-                "titanium/5",
-                "lead/5"            
+                "titanium/8"        
  			]
 	  },
       "liquid": {
 			"liquid": "water",
-			"amount": 0.6
+			"amount": 1.0
 		}
 	},
 	"requirements": [
@@ -51,7 +50,7 @@
 	],
 	"category": "crafting",
 	"research": "cryofluid-mixer",
-	"outputLiquid": "cryofluid/0.6",
+	"outputLiquid": "cryofluid/0.66",
 
   "ambientSoundVolume": 0
 }
