@@ -1,0 +1,261 @@
+{
+    "name": "Tier 5 Unit Factory",
+    "type": "UnitFactory",
+    "size": 10,
+    "health": 6500,
+    "consumes": {
+      "power": 38
+    },
+    "plans": [
+        {
+            "unit" : "twilight",
+            "requirements": [
+                {
+                    "item": "silicon",
+                    "amount": 1500
+                },
+                {
+                    "item": "titanium",
+                    "amount": 1400
+                },
+                {
+                    "item": "plastanium",
+                    "amount": 1100
+                },
+                {
+                    "item": "phase-fabric",
+                    "amount": 800
+                },
+                {
+                    "item": "surge-alloy",
+                    "amount": 750
+                },
+                {
+                    "item": "thorium",
+                    "amount": 1000
+                }
+            ],
+            "time": 1000
+        },
+        {
+            "unit" : "toxicity",
+            "requirements": [
+                {
+                    "item": "silicon",
+                    "amount": 1500
+                },
+                {
+                    "item": "titanium",
+                    "amount": 1400
+                },
+                {
+                    "item": "plastanium",
+                    "amount": 1100
+                },
+                {
+                    "item": "phase-fabric",
+                    "amount": 800
+                },
+                {
+                    "item": "surge-alloy",
+                    "amount": 750
+                },
+                {
+                    "item": "thorium",
+                    "amount": 1000
+                }
+            ],
+            "time": 1000
+        },
+        {
+            "unit" : "anvil",
+            "requirements": [
+                {
+                    "item": "silicon",
+                    "amount": 1500
+                },
+                {
+                    "item": "titanium",
+                    "amount": 1400
+                },
+                {
+                    "item": "plastanium",
+                    "amount": 1100
+                },
+                {
+                    "item": "phase-fabric",
+                    "amount": 800
+                },
+                {
+                    "item": "surge-alloy",
+                    "amount": 750
+                },
+                {
+                    "item": "thorium",
+                    "amount": 1000
+                }
+            ],
+            "time": 1000
+        },
+        {
+            "unit" : "orca",
+            "requirements": [
+                {
+                    "item": "silicon",
+                    "amount": 1500
+                },
+                {
+                    "item": "titanium",
+                    "amount": 1400
+                },
+                {
+                    "item": "plastanium",
+                    "amount": 1100
+                },
+                {
+                    "item": "phase-fabric",
+                    "amount": 800
+                },
+                {
+                    "item": "surge-alloy",
+                    "amount": 750
+                },
+                {
+                    "item": "thorium",
+                    "amount": 1000
+                }
+            ],
+            "time": 1000
+        },
+        {
+            "unit" : "hex",
+            "requirements": [
+                {
+                    "item": "silicon",
+                    "amount": 1500
+                },
+                {
+                    "item": "titanium",
+                    "amount": 1400
+                },
+                {
+                    "item": "plastanium",
+                    "amount": 1100
+                },
+                {
+                    "item": "phase-fabric",
+                    "amount": 800
+                },
+                {
+                    "item": "surge-alloy",
+                    "amount": 750
+                },
+                {
+                    "item": "thorium",
+                    "amount": 1000
+                }
+            ],
+            "time": 1000
+        },
+        {
+            "unit" : "stella",
+            "requirements": [
+                {
+                    "item": "silicon",
+                    "amount": 1500
+                },
+                {
+                    "item": "titanium",
+                    "amount": 1400
+                },
+                {
+                    "item": "plastanium",
+                    "amount": 1100
+                },
+                {
+                    "item": "phase-fabric",
+                    "amount": 800
+                },
+                {
+                    "item": "surge-alloy",
+                    "amount": 750
+                },
+                {
+                    "item": "thorium",
+                    "amount": 1000
+                }
+            ],
+            "time": 1000
+        },
+        {
+            "unit" : "mariana",
+            "requirements": [
+                {
+                    "item": "silicon",
+                    "amount": 1500
+                },
+                {
+                    "item": "titanium",
+                    "amount": 1400
+                },
+                {
+                    "item": "plastanium",
+                    "amount": 1100
+                },
+                {
+                    "item": "phase-fabric",
+                    "amount": 800
+                },
+                {
+                    "item": "surge-alloy",
+                    "amount": 750
+                },
+                {
+                    "item": "thorium",
+                    "amount": 1000
+                }
+            ],
+            "time": 1000
+        }
+    ],
+    "category": "units",
+    "research": "tetrative-reconstructor",
+    "requirements": [
+        {
+            "item": "copper",
+            "amount": 5000
+        },
+        {
+            "item": "lead",
+            "amount": 5000
+        },
+        {
+            "item": "graphite",
+            "amount": 4000
+        },
+        {
+            "item": "titanium",
+            "amount": 3500
+        },
+        {
+            "item": "thorium",
+            "amount": 2000
+        },
+        {
+            "item": "silicon",
+            "amount": 4500
+        },
+        {
+            "item":"plastanium",
+            "amount": 1300
+        },
+        {
+            "item":"phase-fabric",
+            "amount": 1300
+        },
+        {
+            "item":"surge-alloy",
+            "amount": 1200
+        }
+    ]
+}

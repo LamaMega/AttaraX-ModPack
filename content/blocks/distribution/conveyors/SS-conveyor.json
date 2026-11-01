@@ -3,9 +3,9 @@
   "name": "SS Conveyor",
   "description": "A faster Stack conveyor then Plastanium conveyor.",
   "category": "distribution",
-  "health": 110,
-  "speed":0.5,
-  "itemCapacity": 25,
+  "health": 220,
+  "speed":0.1,
+  "itemCapacity": 35,
 
   "requirements": [
       "lopper/10",

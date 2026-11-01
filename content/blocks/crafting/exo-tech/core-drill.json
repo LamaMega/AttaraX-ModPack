@@ -56,31 +56,31 @@
   "results": [
     {
       "item":"lopper",
-      "amount":1
+      "amount":2
     },
     {
       "item":"silicon",
-      "amount":1
+      "amount":2
     },
     {
       "item":"titanium",
-      "amount":1
+      "amount":2
     },
     {
       "item":"plastanium",
-      "amount":1
+      "amount":2
     },
     {
       "item":"thorium",
-      "amount":1
+      "amount":2
     },
     {
       "item":"phase-fabric",
-      "amount":1
+      "amount":2
     },
     {
       "item":"surge-alloy",
-      "amount":1
+      "amount":2
     }
   ],
 

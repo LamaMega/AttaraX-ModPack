@@ -23,6 +23,12 @@
     "singleTarget": true,
     "targetAir": true,
     "rotateSpeed": 3,
+
+    "buildRange": 650,
+    "mineRange": 650,
+    "range": 650,
+    "maxRange": 650,
+
     "parts": [
       {
         "type": "RegionPart",
