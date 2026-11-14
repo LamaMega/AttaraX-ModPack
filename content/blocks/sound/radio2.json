@@ -24,7 +24,7 @@
         "colorTo": "5A000100"
     },
     "research": {
-        "parent":"mender",
+        "parent":"radio",
         "requirements":[
             "silicon/15"
         ]
