@@ -5,7 +5,7 @@
     "description": "Slowed by AttaraX",
     "size": 2,
     "health": 250,
-    "ambientSound": "music2",
+    "ambientSound": "music3",
     "ambientSoundVolume": 0.55,
     "type": "GenericCrafter",
     "craftTime": 155,
