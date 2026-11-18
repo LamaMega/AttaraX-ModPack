@@ -1,5 +1,5 @@
 {
-    "name": "Tier 5 Unit Factory",
+    "name": "Tier 6 Unit Factory",
     "type": "UnitFactory",
     "size": 10,
     "health": 6500,
@@ -12,7 +12,7 @@
             "requirements": [
                 {
                     "item": "silicon",
-                    "amount": 1500
+                    "amount": 3000
                 },
                 {
                     "item": "titanium",
@@ -42,7 +42,7 @@
             "requirements": [
                 {
                     "item": "silicon",
-                    "amount": 1500
+                    "amount": 3000
                 },
                 {
                     "item": "titanium",
@@ -72,7 +72,7 @@
             "requirements": [
                 {
                     "item": "silicon",
-                    "amount": 1500
+                    "amount": 3000
                 },
                 {
                     "item": "titanium",
@@ -102,7 +102,7 @@
             "requirements": [
                 {
                     "item": "silicon",
-                    "amount": 1500
+                    "amount": 3000
                 },
                 {
                     "item": "titanium",
@@ -132,7 +132,7 @@
             "requirements": [
                 {
                     "item": "silicon",
-                    "amount": 1500
+                    "amount": 3000
                 },
                 {
                     "item": "titanium",
@@ -162,7 +162,7 @@
             "requirements": [
                 {
                     "item": "silicon",
-                    "amount": 1500
+                    "amount": 3000
                 },
                 {
                     "item": "titanium",
@@ -192,7 +192,7 @@
             "requirements": [
                 {
                     "item": "silicon",
-                    "amount": 1500
+                    "amount": 3000
                 },
                 {
                     "item": "titanium",
@@ -223,39 +223,39 @@
     "requirements": [
         {
             "item": "copper",
-            "amount": 5000
+            "amount": 9000
         },
         {
             "item": "lead",
-            "amount": 5000
+            "amount": 9000
         },
         {
             "item": "graphite",
-            "amount": 4000
+            "amount": 9000
         },
         {
             "item": "titanium",
-            "amount": 3500
+            "amount": 7500
         },
         {
             "item": "thorium",
-            "amount": 2000
+            "amount": 6000
         },
         {
             "item": "silicon",
-            "amount": 4500
+            "amount": 9500
         },
         {
             "item":"plastanium",
-            "amount": 1300
+            "amount": 4300
         },
         {
             "item":"phase-fabric",
-            "amount": 1300
+            "amount": 3300
         },
         {
             "item":"surge-alloy",
-            "amount": 1200
+            "amount": 2200
         }
     ]
 }
