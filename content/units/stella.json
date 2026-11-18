@@ -76,7 +76,7 @@
         "trailParam": 5,
         "trailLength": 16,
         "trailWidth": 1.5,
-        //"buildingDamageMultiplier": ,
+        "buildingDamageMultiplier": 0.55,
         "damage": 55,
         "speed": 5,
         "lifetime": 80,
@@ -122,7 +122,7 @@
         "trailParam": 5,
         "trailLength": 16,
         "trailWidth": 1.5,
-        //"buildingDamageMultiplier": 0.3,
+        "buildingDamageMultiplier": 0.55,
         "damage": 95,
         "speed": 6.5,
         "lifetime": 85,
@@ -141,9 +141,9 @@
   "abilities": [
     {
       "type": "mindustry.entities.abilities.RepairFieldAbility",
-      "range": 140,
-      "amount": 550,
-      "reload": 380
+      "range": 220,
+      "amount": 280,
+      "reload": 480
     },
     {
       "type": "mindustry.entities.abilities.StatusFieldAbility",
